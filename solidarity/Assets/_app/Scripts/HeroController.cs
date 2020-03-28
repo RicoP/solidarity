@@ -95,9 +95,9 @@ public class HeroController : MonoBehaviour
           direction *= ladderClimpSpeed;
           rigidbody.velocity = direction;
 
-          if (transform.position.y <= 1.1)
+          if (transform.position.y <= 1.1 && diry < 0)
           {
-            //UnsnapFromLadder();
+            UnsnapFromLadder();
           }
         }
         else
