@@ -89,13 +89,20 @@ public class HeroController : MonoBehaviour
       }
       else
       {
-        if (snappedToLadder.Standing)
+        if (touchNotifier.ladders.Contains(snappedToLadder))
         {
-          Vector3 direction = snappedToLadder.Up * diry;
-          direction *= ladderClimpSpeed;
-          rigidbody.velocity = direction;
+          if (snappedToLadder.Standing)
+          {
+            Vector3 direction = snappedToLadder.Up * diry;
+            direction *= ladderClimpSpeed;
+            rigidbody.velocity = direction + snappedToLadder.GetComponent<Rigidbody>().velocity;
 
-          if (transform.position.y <= 1.1 && diry < 0)
+            if (transform.position.y <= 1.1 && diry < 0)
+            {
+              UnsnapFromLadder();
+            }
+          }
+          else
           {
             UnsnapFromLadder();
           }
