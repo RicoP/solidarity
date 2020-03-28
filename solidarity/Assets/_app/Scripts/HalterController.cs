@@ -8,9 +8,11 @@ public class HalterController : MonoBehaviour
   public Collider groundCollider;
   public float speed = 10;
 
+  private Rigidbody rigidbody;
+
   void Awake()
   {
-
+    rigidbody = this.GetComponent<Rigidbody>();
   }
 
   void Update()
@@ -20,7 +22,8 @@ public class HalterController : MonoBehaviour
 
     int groundLayer = LayerMask.GetMask("Ground");
 
-    if (Physics.Raycast(ray, out hit, float.PositiveInfinity, groundLayer)) {
+    if (Physics.Raycast(ray, out hit, float.PositiveInfinity, groundLayer))
+    {
       Debug.DrawRay(hit.point, hit.normal * 10, Color.red);
       var upVector = Vector3.Cross(halterCamera.transform.right, hit.normal);
       Debug.DrawRay(hit.point, upVector * 10, Color.blue);
@@ -34,7 +37,6 @@ public class HalterController : MonoBehaviour
       Vector3 direction = upVector * vy + rightVector * vx;
       direction *= speed;
 
-      var rigidbody = this.GetComponent<Rigidbody>();
       rigidbody.velocity = direction;
     }
   }
