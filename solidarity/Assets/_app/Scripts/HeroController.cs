@@ -6,9 +6,10 @@ using UnityEngine;
 
 public class HeroController : MonoBehaviour
 {
-  public enum Kind { 
+  public enum Kind
+  {
     None,
-    Ladder,
+    Holder,
     Packer
   }
 
@@ -18,10 +19,12 @@ public class HeroController : MonoBehaviour
   public TouchNotifier touchNotifier;
 
   public float speed = 10;
+  private float ladderClimpSpeed = 4;
 
   private int groundLayer;
   private Rigidbody rigidbody;
   private GameObject holdingObject = null;
+  private Ladder snappedToLadder;
 
 
   private string AxisHorz = "halter_horz";
@@ -35,7 +38,7 @@ public class HeroController : MonoBehaviour
 
     switch (kind)
     {
-      case Kind.Ladder:
+      case Kind.Holder:
         AxisHorz = "halter_horz";
         AxisVert = "halter_vert";
         BtnAction = "halter_action";
@@ -60,39 +63,112 @@ public class HeroController : MonoBehaviour
 
     if (Physics.Raycast(ray, out hit, float.PositiveInfinity, groundLayer))
     {
-      Debug.DrawRay(hit.point, hit.normal * 10, Color.red);
-      var upVector = Vector3.Cross(halterCamera.transform.right, hit.normal);
-      Debug.DrawRay(hit.point, upVector * 10, Color.blue);
-      //Debug.DrawRay(hit.point, Vector3.Cross(halterCamera.transform.up, hit.normal) * 10, Color.green);
-      var rightVector = Vector3.Cross(-halterCamera.transform.forward, hit.normal);
-      Debug.DrawRay(hit.point, rightVector * 10, Color.cyan);
-
-      var vx = Input.GetAxis(AxisHorz);
-      var vy = Input.GetAxis(AxisVert);
+      var dirx = Input.GetAxis(AxisHorz);
+      var diry = Input.GetAxis(AxisVert);
       var action = Input.GetButtonDown(BtnAction);
+
+      Debug.DrawRay(hit.point, hit.normal * 2, Color.blue);
+      var upVector = Vector3.Cross(halterCamera.transform.right, hit.normal);
+      Debug.DrawRay(hit.point, upVector * 2, Color.green);
+      var rightVector = Vector3.Cross(-halterCamera.transform.forward, hit.normal);
+      Debug.DrawRay(hit.point, rightVector * 2, Color.red);
+
       if (action)
       {
         Debug.Log("action!");
-        if (holdingObject)
+        ExecuteAction();
+      }
+
+      if (snappedToLadder == null)
+      {
+        Vector3 direction = upVector * diry + rightVector * dirx;
+        direction *= speed;
+        direction.y = rigidbody.velocity.y; //keep gravity
+
+        rigidbody.velocity = direction;
+      }
+      else
+      {
+        if (touchNotifier.ladders.Contains(snappedToLadder))
         {
-          if (holdingObject.Is<Ladder>())
+          if (snappedToLadder.Standing)
           {
-            TossLadder(holdingObject.GetComponent<Ladder>());
+            Vector3 direction = snappedToLadder.Up * diry;
+            direction *= ladderClimpSpeed;
+            rigidbody.velocity = direction + snappedToLadder.GetComponent<Rigidbody>().velocity;
+
+            if (transform.position.y <= 1.1 && diry < 0)
+            {
+              UnsnapFromLadder();
+            }
+          }
+          else
+          {
+            UnsnapFromLadder();
           }
         }
         else
         {
-          if (touchNotifier.ladders.Any())
-          {
-            PickUpLadder(touchNotifier.ladders.First());
-          }
+          UnsnapFromLadder();
         }
       }
+    }
+  }
 
-      Vector3 direction = upVector * vy + rightVector * vx;
-      direction *= speed;
+  private void ExecuteAction()
+  {
+    if (kind == Kind.Holder)
+    {
+      HolderAction();
+    }
+    if (kind == Kind.Packer)
+    {
+      PackerAction();
+    }
 
-      rigidbody.velocity = direction;
+  }
+
+  private void PackerAction()
+  {
+    if (snappedToLadder == null && touchNotifier.ladders.Any())
+    {
+      SnapToLadder(touchNotifier.ladders.First());
+    }
+    else
+    {
+      //UnsnapFromLadder();
+    }
+  }
+
+  private void UnsnapFromLadder()
+  {
+    snappedToLadder = null;
+    transform.parent = null;
+  }
+
+  private void SnapToLadder(Ladder ladder)
+  {
+    Debug.Log("SnapToLadder");
+
+    snappedToLadder = ladder;
+    transform.parent = ladder.transform;
+  }
+
+  private void HolderAction()
+  {
+    if (holdingObject)
+    {
+      if (holdingObject.Is<Ladder>())
+      {
+        TossLadder(holdingObject.GetComponent<Ladder>());
+      }
+    }
+    else
+    {
+      if (touchNotifier.ladders.Any())
+      {
+        PickUpLadder(touchNotifier.ladders.First());
+      }
     }
   }
 
@@ -109,9 +185,12 @@ public class HeroController : MonoBehaviour
 
     MakeTouchable(ladder, false);
 
-    ladder.transform.parent = this.transform;
+    ladder.transform.up = Vector3.up;
+    var pos = ladder.transform.position;
+    pos.y = ladder.LadderLength / 2;
+    ladder.transform.position = pos;
 
-    ladder.transform.localPosition = -ladder.PivotLokal;
+    ladder.transform.parent = this.transform;
   }
 
   private static void MakeTouchable(Ladder ladder, bool touchable)
