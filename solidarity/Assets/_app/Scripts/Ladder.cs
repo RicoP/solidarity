@@ -27,18 +27,32 @@ public class Ladder : MonoBehaviour
     }
   }
 
+  public Vector3 PivotLokal
+  {
+    get
+    {
+      return -Up * (LadderLength * 0.5f);
+    }
+  }
+
+  public Vector3 Pivot
+  {
+    get
+    {
+      return transform.position + PivotLokal;
+    }
+  }
+
   public float LadderLength
   {
-    get {
+    get
+    {
       //TODO: make better
       var s = this.transform.localScale;
       return Mathf.Max(s.x, s.y, s.z);
     }
   }
 
-  void Start()
-  {
-  }
 
   void Update()
   {
@@ -48,5 +62,10 @@ public class Ladder : MonoBehaviour
     Debug.Log(upVectorRaw);
 
     Debug.DrawRay(transform.position, Up * 10, Color.red);
+  }
+
+  private void OnDrawGizmos()
+  {
+    Gizmos.DrawSphere(Pivot, 1);
   }
 }

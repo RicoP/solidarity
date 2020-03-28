@@ -4,8 +4,16 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class HalterController : MonoBehaviour
+public class HeroController : MonoBehaviour
 {
+  public enum Kind { 
+    None,
+    Ladder,
+    Packer
+  }
+
+  public Kind kind = Kind.None;
+
   public Camera halterCamera;
   public TouchNotifier touchNotifier;
 
@@ -79,7 +87,7 @@ public class HalterController : MonoBehaviour
 
     ladder.transform.parent = this.transform;
 
-    ladder.transform.localPosition = Vector3.up * ladder.LadderLength / 2;
+    ladder.transform.localPosition = -ladder.PivotLokal;
   }
 
   private static void MakeTouchable(Ladder ladder, bool touchable)
