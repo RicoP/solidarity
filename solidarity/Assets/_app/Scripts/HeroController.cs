@@ -23,10 +23,34 @@ public class HeroController : MonoBehaviour
   private Rigidbody rigidbody;
   private GameObject holdingObject = null;
 
+
+  private string AxisHorz = "halter_horz";
+  private string AxisVert = "halter_vert";
+  private string BtnAction = "halter_action";
+
   void Awake()
   {
     groundLayer = LayerMask.GetMask("Ground");
     rigidbody = this.GetComponent<Rigidbody>();
+
+    switch (kind)
+    {
+      case Kind.Ladder:
+        AxisHorz = "halter_horz";
+        AxisVert = "halter_vert";
+        BtnAction = "halter_action";
+        break;
+
+      case Kind.Packer:
+        AxisHorz = "packer_horz";
+        AxisVert = "packer_vert";
+        BtnAction = "packer_action";
+        break;
+
+      case Kind.None:
+      default:
+        throw new ArgumentOutOfRangeException();
+    }
   }
 
   void Update()
@@ -43,9 +67,9 @@ public class HeroController : MonoBehaviour
       var rightVector = Vector3.Cross(-halterCamera.transform.forward, hit.normal);
       Debug.DrawRay(hit.point, rightVector * 10, Color.cyan);
 
-      var vx = Input.GetAxis("halter_horz");
-      var vy = Input.GetAxis("halter_vert");
-      var action = Input.GetButtonDown("halter_action");
+      var vx = Input.GetAxis(AxisHorz);
+      var vy = Input.GetAxis(AxisVert);
+      var action = Input.GetButtonDown(BtnAction);
       if (action)
       {
         Debug.Log("action!");
