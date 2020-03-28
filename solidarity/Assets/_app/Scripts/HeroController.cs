@@ -8,7 +8,7 @@ public class HeroController : MonoBehaviour
 {
   public enum Kind { 
     None,
-    Ladder,
+    Holder,
     Packer
   }
 
@@ -22,6 +22,7 @@ public class HeroController : MonoBehaviour
   private int groundLayer;
   private Rigidbody rigidbody;
   private GameObject holdingObject = null;
+  private Ladder snappedToLadder;
 
 
   private string AxisHorz = "halter_horz";
@@ -35,7 +36,7 @@ public class HeroController : MonoBehaviour
 
     switch (kind)
     {
-      case Kind.Ladder:
+      case Kind.Holder:
         AxisHorz = "halter_horz";
         AxisVert = "halter_vert";
         BtnAction = "halter_action";
@@ -73,26 +74,63 @@ public class HeroController : MonoBehaviour
       if (action)
       {
         Debug.Log("action!");
-        if (holdingObject)
-        {
-          if (holdingObject.Is<Ladder>())
-          {
-            TossLadder(holdingObject.GetComponent<Ladder>());
-          }
-        }
-        else
-        {
-          if (touchNotifier.ladders.Any())
-          {
-            PickUpLadder(touchNotifier.ladders.First());
-          }
-        }
+        ExecuteAction();
       }
 
       Vector3 direction = upVector * vy + rightVector * vx;
       direction *= speed;
 
       rigidbody.velocity = direction;
+    }
+  }
+
+  private void ExecuteAction()
+  {
+    if (kind == Kind.Holder)
+    {
+      HolderAction();
+    }
+    if (kind == Kind.Packer)
+    {
+      PackerAction();
+    }
+
+  }
+
+  private void PackerAction()
+  {
+    if (snappedToLadder == null && touchNotifier.ladders.Any())
+    {
+      SnapToLadder(touchNotifier.ladders.First());
+    }
+    else
+    {
+      //UnsnapFromLadder();
+    }
+  }
+
+  private void SnapToLadder(Ladder ladder)
+  {
+    Debug.Log("SnapToLadder");
+
+    //snappedToLadder = ladder;
+  }
+
+  private void HolderAction()
+  {
+    if (holdingObject)
+    {
+      if (holdingObject.Is<Ladder>())
+      {
+        TossLadder(holdingObject.GetComponent<Ladder>());
+      }
+    }
+    else
+    {
+      if (touchNotifier.ladders.Any())
+      {
+        PickUpLadder(touchNotifier.ladders.First());
+      }
     }
   }
 
@@ -109,9 +147,13 @@ public class HeroController : MonoBehaviour
 
     MakeTouchable(ladder, false);
 
-    ladder.transform.parent = this.transform;
 
-    ladder.transform.localPosition = -ladder.PivotLokal;
+    ladder.transform.up = Vector3.up;
+    var pos = ladder.transform.position;
+    pos.y = ladder.LadderLength / 2;
+    ladder.transform.position = pos;
+
+    ladder.transform.parent = this.transform;
   }
 
   private static void MakeTouchable(Ladder ladder, bool touchable)

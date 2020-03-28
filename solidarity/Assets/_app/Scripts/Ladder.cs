@@ -59,8 +59,6 @@ public class Ladder : MonoBehaviour
     upVectorRaw = Vector3.Project(Vector3.up, transform.up);
     upVectorNormalized = upVectorRaw.normalized;
 
-    Debug.Log(upVectorRaw);
-
     Debug.DrawRay(transform.position, Up * 10, Color.red);
   }
 
