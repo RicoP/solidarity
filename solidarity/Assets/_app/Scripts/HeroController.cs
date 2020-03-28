@@ -6,7 +6,8 @@ using UnityEngine;
 
 public class HeroController : MonoBehaviour
 {
-  public enum Kind { 
+  public enum Kind
+  {
     None,
     Holder,
     Packer
@@ -18,6 +19,7 @@ public class HeroController : MonoBehaviour
   public TouchNotifier touchNotifier;
 
   public float speed = 10;
+  private float ladderClimpSpeed = 4;
 
   private int groundLayer;
   private Rigidbody rigidbody;
@@ -61,26 +63,48 @@ public class HeroController : MonoBehaviour
 
     if (Physics.Raycast(ray, out hit, float.PositiveInfinity, groundLayer))
     {
-      Debug.DrawRay(hit.point, hit.normal * 10, Color.red);
-      var upVector = Vector3.Cross(halterCamera.transform.right, hit.normal);
-      Debug.DrawRay(hit.point, upVector * 10, Color.blue);
-      //Debug.DrawRay(hit.point, Vector3.Cross(halterCamera.transform.up, hit.normal) * 10, Color.green);
-      var rightVector = Vector3.Cross(-halterCamera.transform.forward, hit.normal);
-      Debug.DrawRay(hit.point, rightVector * 10, Color.cyan);
-
-      var vx = Input.GetAxis(AxisHorz);
-      var vy = Input.GetAxis(AxisVert);
+      var dirx = Input.GetAxis(AxisHorz);
+      var diry = Input.GetAxis(AxisVert);
       var action = Input.GetButtonDown(BtnAction);
+
+      Debug.DrawRay(hit.point, hit.normal * 2, Color.blue);
+      var upVector = Vector3.Cross(halterCamera.transform.right, hit.normal);
+      Debug.DrawRay(hit.point, upVector * 2, Color.green);
+      var rightVector = Vector3.Cross(-halterCamera.transform.forward, hit.normal);
+      Debug.DrawRay(hit.point, rightVector * 2, Color.red);
+
       if (action)
       {
         Debug.Log("action!");
         ExecuteAction();
       }
 
-      Vector3 direction = upVector * vy + rightVector * vx;
-      direction *= speed;
+      if (snappedToLadder == null)
+      {
+        Vector3 direction = upVector * diry + rightVector * dirx;
+        direction *= speed;
+        direction.y = rigidbody.velocity.y; //keep gravity
 
-      rigidbody.velocity = direction;
+        rigidbody.velocity = direction;
+      }
+      else
+      {
+        if (snappedToLadder.Standing)
+        {
+          Vector3 direction = snappedToLadder.Up * diry;
+          direction *= ladderClimpSpeed;
+          rigidbody.velocity = direction;
+
+          if (transform.position.y <= 1.1)
+          {
+            //UnsnapFromLadder();
+          }
+        }
+        else
+        {
+          UnsnapFromLadder();
+        }
+      }
     }
   }
 
@@ -109,11 +133,18 @@ public class HeroController : MonoBehaviour
     }
   }
 
+  private void UnsnapFromLadder()
+  {
+    snappedToLadder = null;
+    transform.parent = null;
+  }
+
   private void SnapToLadder(Ladder ladder)
   {
     Debug.Log("SnapToLadder");
 
-    //snappedToLadder = ladder;
+    snappedToLadder = ladder;
+    transform.parent = ladder.transform;
   }
 
   private void HolderAction()
@@ -146,7 +177,6 @@ public class HeroController : MonoBehaviour
     holdingObject = ladder.gameObject;
 
     MakeTouchable(ladder, false);
-
 
     ladder.transform.up = Vector3.up;
     var pos = ladder.transform.position;

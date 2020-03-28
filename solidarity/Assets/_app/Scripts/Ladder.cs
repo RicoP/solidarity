@@ -47,8 +47,7 @@ public class Ladder : MonoBehaviour
   {
     get
     {
-      //TODO: make better
-      var s = this.transform.localScale;
+      var s = this.GetComponent<BoxCollider>().size;
       return Mathf.Max(s.x, s.y, s.z);
     }
   }
