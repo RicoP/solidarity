@@ -32,6 +32,10 @@ public class HeroController : MonoBehaviour
   private string BtnAction = "halter_action";
   private Pickup pickup;
 
+  float timer = 0.0f;
+  [SerializeField]
+  float footstepSpeed = 0.3f;
+
   void Awake()
   {
     groundLayer = LayerMask.GetMask("Ground");
@@ -87,6 +91,12 @@ public class HeroController : MonoBehaviour
         direction.y = rigidbody.velocity.y; //keep gravity
 
         rigidbody.velocity = direction;
+
+        if (Mathf.Abs(rigidbody.velocity.x) > 0.5f && kind == Kind.Holder)
+        {
+          PlayFootstepSound();
+        }
+      
       }
       else
       {
@@ -97,6 +107,11 @@ public class HeroController : MonoBehaviour
             Vector3 direction = snappedToLadder.Up * diry;
             direction *= ladderClimpSpeed;
             rigidbody.velocity = direction + snappedToLadder.GetComponent<Rigidbody>().velocity;
+
+            if (Mathf.Abs(rigidbody.velocity.y) > 0.1f)
+            {
+              PlayFootstepLeiterSound();
+            }
 
             if (transform.position.y <= 1.1 && diry < 0)
             {
@@ -254,5 +269,30 @@ public class HeroController : MonoBehaviour
       FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Pickup", this.gameObject);
     }
   }
+
+  private void PlayFootstepSound()
+  {
+    if (timer > footstepSpeed)
+    {
+      string sound = "event:/Player/Footsteps Player 1";
+      FMODUnity.RuntimeManager.PlayOneShotAttached(sound, this.gameObject);
+      timer = 0.0f;
+    }
+
+    timer += Time.deltaTime;
+  }
+
+  private void PlayFootstepLeiterSound()
+  {
+    if (timer > footstepSpeed)
+    {
+      string sound = "event:/Player/Footsteps Leiter";
+      FMODUnity.RuntimeManager.PlayOneShotAttached(sound, this.gameObject);
+      timer = 0.0f;
+    }
+
+    timer += Time.deltaTime;
+  }
+
   #endregion
 }
