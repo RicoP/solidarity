@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &42669674660728989
+--- !u!1 &4003154557385983021
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,45 +8,48 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4446032843925154368}
-  - component: {fileID: 3562203648639740241}
-  - component: {fileID: 4723659023577131738}
+  - component: {fileID: 132106342787495486}
+  - component: {fileID: 8975199874784136200}
+  - component: {fileID: 3437048955302080753}
+  - component: {fileID: 6097279592628177518}
+  - component: {fileID: 4073553441375546448}
+  - component: {fileID: 972777481416691724}
   m_Layer: 0
-  m_Name: HolzKiste
+  m_Name: pixbox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4446032843925154368
+--- !u!4 &132106342787495486
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42669674660728989}
-  m_LocalRotation: {x: 0.7071068, y: 0.000000057601156, z: -0.7071067, w: 0.000000057601167}
-  m_LocalPosition: {x: -0.37101716, y: 0.6614875, z: -0.14731857}
-  m_LocalScale: {x: 0.919926, y: 1, z: 1}
+  m_GameObject: {fileID: 4003154557385983021}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 200, y: 200, z: 200}
   m_Children: []
-  m_Father: {fileID: 3109160046773407113}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3562203648639740241
+--- !u!33 &8975199874784136200
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42669674660728989}
-  m_Mesh: {fileID: -3670672232575192825, guid: 78a6517b4963a9945a5cf32fc4afdea8, type: 3}
---- !u!23 &4723659023577131738
+  m_GameObject: {fileID: 4003154557385983021}
+  m_Mesh: {fileID: -255211470038425070, guid: deac969c3ca89f343957981520f1ad80, type: 3}
+--- !u!23 &3437048955302080753
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42669674660728989}
+  m_GameObject: {fileID: 4003154557385983021}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -58,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 9fe9c97ab298ca54c8e715c1433fca14, type: 2}
+  - {fileID: 2100000, guid: 92014657865d1624190adde68879c39f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -79,34 +82,44 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1 &2125326624790609818
-GameObject:
+--- !u!65 &6097279592628177518
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3109160046773407113}
-  m_Layer: 0
-  m_Name: HolzKiste
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3109160046773407113
-Transform:
+  m_GameObject: {fileID: 4003154557385983021}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.004162239, y: 0.0066288053, z: 0.00166352}
+  m_Center: {x: -0.000049862894, y: 0.00005261634, z: 0.00021822519}
+--- !u!54 &4073553441375546448
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2125326624790609818}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.281, y: 0.083719015, z: -12.249}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4446032843925154368}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 4003154557385983021}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &972777481416691724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4003154557385983021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba19307810bfd9d42b2760b5dc376deb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
