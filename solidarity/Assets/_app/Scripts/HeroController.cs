@@ -201,6 +201,7 @@ public class HeroController : MonoBehaviour
       if (touchNotifier.ladders.Any())
       {
         PickUpLadder(touchNotifier.ladders.First());
+        FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Environment/Pickup/LeiterPickup", this.gameObject);
       }
     }
   }

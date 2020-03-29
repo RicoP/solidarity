@@ -7,8 +7,8 @@ public class CustomListener : MonoBehaviour
   [SerializeField]
   private Transform player, cam;
 
-  // Spieler 1/links = 1
-  // Spieler 2/rechts = 2
+  // Spieler 1/links =  0
+  // Spieler 2/rechts = 1
   [SerializeField]
   private int listener;
 
@@ -19,6 +19,7 @@ public class CustomListener : MonoBehaviour
   void Start()
   {
     FMODUnity.RuntimeManager.StudioSystem.setNumListeners(2);
+    player = this.transform;
   }
 
   void Update()
