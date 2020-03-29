@@ -23,7 +23,8 @@ public class HeroController : MonoBehaviour
 
   private int groundLayer;
   private Rigidbody rigidbody;
-  private charControl charController;
+  private charControl charController1;
+  private scndcharControl charController2;
   private GameObject holdingObject = null;
   private Ladder snappedToLadder;
 
@@ -41,7 +42,8 @@ public class HeroController : MonoBehaviour
   {
     groundLayer = LayerMask.GetMask("Ground");
     rigidbody = this.GetComponent<Rigidbody>();
-    charController = this.GetComponentInChildren<charControl>();
+    charController1 = this.GetComponentInChildren<charControl>();
+    charController2 = this.GetComponentInChildren<scndcharControl>();
 
     switch (kind)
     {
@@ -117,7 +119,8 @@ public class HeroController : MonoBehaviour
               PlayFootstepLeiterSound();
             }
 
-            if (transform.position.y <= 1.1 && diry < 0)
+            Debug.Log(transform.position.y);
+            if (transform.position.y <= 2.1 && diry < 0)
             {
               UnsnapFromLadder();
             }
@@ -137,8 +140,8 @@ public class HeroController : MonoBehaviour
 
   private void SetBool(string anim, bool on)
   {
-    if (charController == null) return;
-    charController.anim.SetBool(anim, on);
+    if (charController1 != null) charController1.anim.SetBool(anim, on);
+    if (charController2 != null) charController2.anim.SetBool(anim, on);
   }
 
   private void ExecuteAction()
@@ -198,6 +201,8 @@ public class HeroController : MonoBehaviour
 
   private void UnsnapFromLadder()
   {
+    SetBool("climb_ladder", false);
+
     snappedToLadder.Occupied = false;
     snappedToLadder = null;
     transform.parent = null;
@@ -206,6 +211,8 @@ public class HeroController : MonoBehaviour
   private void SnapToLadder(Ladder ladder)
   {
     Debug.Log("SnapToLadder");
+
+    SetBool("climb_ladder", true);
 
     ladder.Occupied = true;
     snappedToLadder = ladder;
