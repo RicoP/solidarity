@@ -237,6 +237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/Klopapier
   EnglishName: toilettpaper pack
+  icon: {fileID: 2800000, guid: 032bb61f8cb567048a6961ea42d0e698, type: 3}
 --- !u!1 &8244388288457299980
 GameObject:
   m_ObjectHideFlags: 0

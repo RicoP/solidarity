@@ -398,6 +398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: 
   EnglishName: toycar
+  icon: {fileID: 2800000, guid: 5fd890a1aec567a4093a05bc41b8cd1f, type: 3}
 --- !u!1 &8140378654398659694
 GameObject:
   m_ObjectHideFlags: 0

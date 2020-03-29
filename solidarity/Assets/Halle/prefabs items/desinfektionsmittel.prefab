@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/DesinfektionsMittel
   EnglishName: desinfectionspray
+  icon: {fileID: 2800000, guid: a8dd3f6245fef384d9c8a5c9541718a9, type: 3}

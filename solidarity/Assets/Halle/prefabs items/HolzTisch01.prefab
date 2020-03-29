@@ -160,6 +160,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/WoodBox
   EnglishName: UNTITLED
+  icon: {fileID: 2800000, guid: c2a5de60950f0e64c9cc7e8939eac1ca, type: 3}
 --- !u!1 &3682263239241625674
 GameObject:
   m_ObjectHideFlags: 0

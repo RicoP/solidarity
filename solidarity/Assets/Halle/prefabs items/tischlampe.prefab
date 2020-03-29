@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: 
   EnglishName: tablelamp
+  icon: {fileID: 2800000, guid: b4b3359f4b7ea994c9cf005dc0dc67df, type: 3}

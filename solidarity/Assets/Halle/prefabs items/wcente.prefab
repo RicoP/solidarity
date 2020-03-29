@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/DesinfektionsMittel
   EnglishName: wc cleaner
+  icon: {fileID: 2800000, guid: 2fc35b00bab094d478b5f2d7746e09bc, type: 3}

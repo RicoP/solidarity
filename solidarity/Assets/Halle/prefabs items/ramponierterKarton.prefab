@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: 
   EnglishName: carton
+  icon: {fileID: 2800000, guid: d9b6cb7633e894a408007e590141aea2, type: 3}

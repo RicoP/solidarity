@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/DesinfektionsMittel
   EnglishName: fit
+  icon: {fileID: 2800000, guid: 324038e4ceeb3124ba232394158de86f, type: 3}

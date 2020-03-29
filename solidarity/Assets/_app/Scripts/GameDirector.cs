@@ -10,9 +10,9 @@ public class GameDirector : MonoBehaviour
 
   public Color color = new Color(0.0f, 0.0f, 0.5f, 1.0f);
   public float Size = 10;
-  public List<string> itemsToCollect = new List<string>();
+  public List<Pickup> itemsToCollect = new List<Pickup>();
 
-  private List<string> itemNames = new List<string>();
+  private List<Pickup> items = new List<Pickup>();
 
 
   void Start()
@@ -26,19 +26,33 @@ public class GameDirector : MonoBehaviour
   {
     yield return new WaitForSeconds(1);
 
-    var pickups = GameObject.FindObjectsOfType<Pickup>();
+    var pickups = GameObject.FindObjectsOfType<Pickup>().ToList();
 
-    var names = pickups.Select(p => p.EnglishName).ToList();
-    names.Sort();
-    this.itemNames = names.Distinct().ToList();
+    items.Clear();
 
-    foreach (var name in itemNames)
+    pickups.Sort((lhs, rhs) => lhs.EnglishName.CompareTo(rhs.EnglishName));
+
+    foreach (var p in pickups)
     {
-      Debug.Log(name);
+      var current = items.LastOrDefault();
+      if (current == null)
+      {
+        items.Add(p);
+      }
+      else {
+        if (!current.EnglishName.Equals(p.EnglishName)) {
+          items.Add(p);
+        }
+      }
+    }
+
+    foreach (var i in items)
+    {
+      Debug.Log(i.EnglishName);
     }
 
     while (true) {
-      var randItem = itemNames[UnityEngine.Random.Range(0, itemNames.Count)];
+      var randItem = items[UnityEngine.Random.Range(0, items.Count)];
       itemsToCollect.Add(randItem);
       FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Inventar", (float)itemsToCollect.Count);
       yield return new WaitForSeconds(4 + CalcWaitTime());
@@ -47,8 +61,10 @@ public class GameDirector : MonoBehaviour
 
   public void Collect(Pickup pickup)
   {
-    if (itemsToCollect.Contains(pickup.EnglishName)) {
-      itemsToCollect.Remove(pickup.EnglishName);
+    int index = itemsToCollect.FindIndex(p => p.EnglishName == pickup.EnglishName);
+    bool found = index != -1;
+    if (found) {
+      itemsToCollect.RemoveAt(index);
     }
 
     if (pickup.transform.parent && pickup.transform.parent.gameObject.Is<HeroController>()) {
@@ -88,7 +104,10 @@ public class GameDirector : MonoBehaviour
 
     foreach (var item in itemsToCollect)
     {
-      GUILayout.Label("Collect " + item);
+      GUILayout.BeginHorizontal();
+      GUILayout.Label(item.icon, GUILayout.MaxHeight(64));
+      GUILayout.Label("Collect " + item.EnglishName);
+      GUILayout.EndHorizontal();
     }
   }
 }

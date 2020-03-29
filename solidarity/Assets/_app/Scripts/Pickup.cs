@@ -8,4 +8,6 @@ public class Pickup : MonoBehaviour
   public string pickupSound;
 
   public string EnglishName = "UNTITLED";
+
+  public Texture2D icon;
 }

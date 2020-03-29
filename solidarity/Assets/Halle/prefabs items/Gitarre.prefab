@@ -158,6 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/Gitarre
   EnglishName: guitar
+  icon: {fileID: 2800000, guid: 9efd8fc74b8e20d4fac07cbecf13fcc1, type: 3}
 --- !u!1 &7388777138731093258
 GameObject:
   m_ObjectHideFlags: 0

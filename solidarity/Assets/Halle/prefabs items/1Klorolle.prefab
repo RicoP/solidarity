@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/Klopapier
   EnglishName: toilettpaper
+  icon: {fileID: 2800000, guid: 05cbad73350e65249a38750d0d557603, type: 3}
