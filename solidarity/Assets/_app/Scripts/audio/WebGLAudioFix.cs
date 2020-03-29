@@ -5,6 +5,12 @@ using UnityEngine;
 public class WebGLAudioFix : MonoBehaviour
 {
   bool audioResumed = false;
+
+  private void Start()
+  {
+    ResumeAudio();
+  }
+
   public void ResumeAudio()
   {
     if (!audioResumed)
