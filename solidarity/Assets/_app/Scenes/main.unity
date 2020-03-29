@@ -732,6 +732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba19307810bfd9d42b2760b5dc376deb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: 
 --- !u!65 &852124099
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -974,6 +975,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_NormalizedViewPortRect.x
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3377055796823145614, guid: 368251992952e6d4590c897fe15bc612,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 368251992952e6d4590c897fe15bc612, type: 3}
@@ -1278,6 +1284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba19307810bfd9d42b2760b5dc376deb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: 
 --- !u!54 &2090753100
 Rigidbody:
   m_ObjectHideFlags: 0
