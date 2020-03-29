@@ -40,6 +40,7 @@ public class GameDirector : MonoBehaviour
     while (true) {
       var randItem = itemNames[UnityEngine.Random.Range(0, itemNames.Count)];
       itemsToCollect.Add(randItem);
+      FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Inventar", (float)itemsToCollect.Count);
       yield return new WaitForSeconds(4 + CalcWaitTime());
     }
   }

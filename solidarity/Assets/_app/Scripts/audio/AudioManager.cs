@@ -25,11 +25,6 @@ public class AudioManager : MonoBehaviour
   [Range(-80f, 10f)]
   private float sfxVolume = 0f;
 
-  [Header("Parameter Test")]
-  [SerializeField]
-  [Range(0f, 20f)]
-  private float intensity;
-
   void Awake()
   {
     if (instance == null)
@@ -51,8 +46,6 @@ public class AudioManager : MonoBehaviour
   void Update()
   {
     SetVcaVolumes();
-
-    RuntimeManager.StudioSystem.setParameterByName("Inventar", intensity);
   }
 
   private void CreateMusicInstance()
