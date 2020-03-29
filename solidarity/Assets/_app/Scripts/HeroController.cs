@@ -167,7 +167,7 @@ public class HeroController : MonoBehaviour
 
   }
 
-  private void TossPickupItem()
+  public void TossPickupItem()
   {
     pickup.GetComponent<Rigidbody>().isKinematic = false;
     pickup.GetComponent<Collider>().isTrigger = false;

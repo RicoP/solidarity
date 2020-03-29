@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -35,5 +36,10 @@ public class TouchNotifier : MonoBehaviour
     {
       pickups.Remove(pickup);
     }
+  }
+
+  public void RemovePickup(Pickup pickup)
+  {
+    pickups.Remove(pickup);
   }
 }
