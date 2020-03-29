@@ -30,6 +30,7 @@ public class HeroController : MonoBehaviour
   private string AxisHorz = "halter_horz";
   private string AxisVert = "halter_vert";
   private string BtnAction = "halter_action";
+  private Pickup pickup;
 
   void Awake()
   {
@@ -125,7 +126,6 @@ public class HeroController : MonoBehaviour
     {
       PackerAction();
     }
-
   }
 
   private void PackerAction()
@@ -134,14 +134,25 @@ public class HeroController : MonoBehaviour
     {
       SnapToLadder(touchNotifier.ladders.First());
     }
-    else
+
+    if (pickup == null && touchNotifier.pickups.Any())
     {
-      //UnsnapFromLadder();
+      PickUpPickup(touchNotifier.pickups.First());
     }
+  }
+
+  private void PickUpPickup(Pickup item)
+  {
+    pickup = item;
+    pickup.GetComponent<Rigidbody>().isKinematic = true;
+    pickup.GetComponent<Collider>().enabled = false;
+    pickup.transform.parent = this.transform;
+    pickup.transform.localPosition = new Vector3(0, 2, 0);
   }
 
   private void UnsnapFromLadder()
   {
+    snappedToLadder.Occupied = false;
     snappedToLadder = null;
     transform.parent = null;
   }
@@ -150,6 +161,7 @@ public class HeroController : MonoBehaviour
   {
     Debug.Log("SnapToLadder");
 
+    ladder.Occupied = true;
     snappedToLadder = ladder;
     transform.parent = ladder.transform;
   }
@@ -181,6 +193,8 @@ public class HeroController : MonoBehaviour
 
   private void PickUpLadder(Ladder ladder)
   {
+    if (ladder.Occupied) return;
+
     holdingObject = ladder.gameObject;
 
     MakeTouchable(ladder, false);

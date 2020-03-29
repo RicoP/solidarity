@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Ladder : MonoBehaviour
 {
+  public bool Occupied = false;
+
   private Vector3 upVectorRaw;
   private Vector3 upVectorNormalized;
 
@@ -26,6 +28,7 @@ public class Ladder : MonoBehaviour
       return upVectorNormalized;
     }
   }
+
 
   public Vector3 PivotLokal
   {
@@ -58,7 +61,23 @@ public class Ladder : MonoBehaviour
     upVectorRaw = Vector3.Project(Vector3.up, transform.up);
     upVectorNormalized = upVectorRaw.normalized;
 
+    if (Occupied)
+    {
+      Yittering();
+    }
+
     Debug.DrawRay(transform.position, Up * 10, Color.red);
+  }
+
+  private void Yittering()
+  {
+    /*float x = Random.value * 2 - 1;
+    float y = Random.value * 2 - 1;
+    float z = Random.value * 2 - 1;
+    var v = new Vector3(x, y, z);
+    v *= .05f;
+
+    this.GetComponent<Rigidbody>().velocity += v;*/
   }
 
   private void OnDrawGizmos()

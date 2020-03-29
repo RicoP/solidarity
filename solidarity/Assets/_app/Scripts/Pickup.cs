@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
+[RequireComponent(typeof(Collider))]
+[RequireComponent(typeof(Rigidbody))]
 public class Pickup : MonoBehaviour
 {
     // Start is called before the first frame update
