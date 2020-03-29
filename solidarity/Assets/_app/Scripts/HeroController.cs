@@ -22,7 +22,8 @@ public class HeroController : MonoBehaviour
   private float ladderClimpSpeed = 4;
 
   private int groundLayer;
-  private Rigidbody rigidbody;
+  protected Rigidbody rigidbody;
+  private HeroController otherhero;
   private charControl charController1;
   private scndcharControl charController2;
   private GameObject holdingObject = null;
@@ -44,6 +45,9 @@ public class HeroController : MonoBehaviour
     rigidbody = this.GetComponent<Rigidbody>();
     charController1 = this.GetComponentInChildren<charControl>();
     charController2 = this.GetComponentInChildren<scndcharControl>();
+
+    var heros = GameObject.FindObjectsOfType<HeroController>();
+    otherhero = (heros[0] == this) ? heros[1] : heros[0];
 
     switch (kind)
     {
@@ -112,7 +116,7 @@ public class HeroController : MonoBehaviour
           {
             Vector3 direction = snappedToLadder.Up * diry;
             direction *= ladderClimpSpeed;
-            rigidbody.velocity = direction + snappedToLadder.GetComponent<Rigidbody>().velocity;
+            rigidbody.velocity = direction + snappedToLadder.GetComponent<Rigidbody>().velocity + otherhero.rigidbody.velocity;
 
             if (Mathf.Abs(rigidbody.velocity.y) > 0.1f)
             {
