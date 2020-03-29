@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5111138577241391349
+--- !u!1 &4713934216959301496
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,48 +8,48 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8121451019697795814}
-  - component: {fileID: 1003799223375562960}
-  - component: {fileID: 6832734106990081065}
-  - component: {fileID: 4753706498309454874}
-  - component: {fileID: 1930598072411634766}
-  - component: {fileID: 8120970969634946949}
+  - component: {fileID: 8588395177205163371}
+  - component: {fileID: 750726018514476893}
+  - component: {fileID: 6437777183505720228}
+  - component: {fileID: 8694422083014194496}
+  - component: {fileID: 1179860368580401986}
+  - component: {fileID: 4002405842703675436}
   m_Layer: 0
-  m_Name: Toilette-mit-Boiler
+  m_Name: BalloonHund
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8121451019697795814
+--- !u!4 &8588395177205163371
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5111138577241391349}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_GameObject: {fileID: 4713934216959301496}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.548811, y: 0.34746838, z: 11.645503}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &1003799223375562960
+--- !u!33 &750726018514476893
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5111138577241391349}
-  m_Mesh: {fileID: -33295453304119080, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
---- !u!23 &6832734106990081065
+  m_GameObject: {fileID: 4713934216959301496}
+  m_Mesh: {fileID: 9220974705972960665, guid: d9d5c7696acc18e44a449bc11fe69c80, type: 3}
+--- !u!23 &6437777183505720228
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5111138577241391349}
+  m_GameObject: {fileID: 4713934216959301496}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+  - {fileID: 2100000, guid: 746a572567ccfe249b2e06beb4595f0f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,26 +82,26 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &4753706498309454874
+--- !u!65 &8694422083014194496
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5111138577241391349}
+  m_GameObject: {fileID: 4713934216959301496}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.003386546, y: 0.008415507, z: 0.008184031}
-  m_Center: {x: 0.03601802, y: -0.0044029355, z: 0.006123868}
---- !u!54 &1930598072411634766
+  m_Size: {x: 1.063947, y: 0.94465125, z: 0.52145374}
+  m_Center: {x: 0.14070679, y: 0.12485725, z: 0.004387915}
+--- !u!54 &1179860368580401986
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5111138577241391349}
+  m_GameObject: {fileID: 4713934216959301496}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -111,17 +111,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8120970969634946949
+--- !u!114 &4002405842703675436
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5111138577241391349}
+  m_GameObject: {fileID: 4713934216959301496}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba19307810bfd9d42b2760b5dc376deb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickupSound: event:/Environment/Pickup/Toilet
-  EnglishName: toilett
+  pickupSound: 
+  EnglishName: ballon dog

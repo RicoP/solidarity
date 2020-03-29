@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &69195722526937405
+--- !u!1 &9140307393957172483
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,48 +8,48 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3940241739878966062}
-  - component: {fileID: 5473432944190691608}
-  - component: {fileID: 1785962198244517345}
-  - component: {fileID: -2341198036509069145}
-  - component: {fileID: 2308707299924304735}
-  - component: {fileID: 8839964088261827271}
+  - component: {fileID: 5225227788921300752}
+  - component: {fileID: 3880055872749591846}
+  - component: {fileID: 7414107137999348191}
+  - component: {fileID: 2592486693732062004}
+  - component: {fileID: -4620403940935141338}
+  - component: {fileID: -4974053677618573171}
   m_Layer: 0
-  m_Name: dose1
+  m_Name: Erste-Hilfe-Koffer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3940241739878966062
+--- !u!4 &5225227788921300752
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69195722526937405}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 7.5653725, y: 0.0000007374982, z: -15.803939}
-  m_LocalScale: {x: 25, y: 25, z: 25}
+  m_GameObject: {fileID: 9140307393957172483}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0.0000029504295}
+  m_LocalPosition: {x: 6.1635666, y: 3.27, z: 23.348095}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &5473432944190691608
+  m_LocalEulerAnglesHint: {x: 0, y: -180.00002, z: 0}
+--- !u!33 &3880055872749591846
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69195722526937405}
-  m_Mesh: {fileID: -3523124818042624278, guid: 9356a1e08d7b53e47b4cc1ece4ffab2a, type: 3}
---- !u!23 &1785962198244517345
+  m_GameObject: {fileID: 9140307393957172483}
+  m_Mesh: {fileID: 3880625178161120210, guid: c4d8af98765c0f148827a8ad1ab4a0b3, type: 3}
+--- !u!23 &7414107137999348191
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69195722526937405}
+  m_GameObject: {fileID: 9140307393957172483}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4874126678125670354, guid: 9356a1e08d7b53e47b4cc1ece4ffab2a, type: 3}
+  - {fileID: 2100000, guid: 9058bc458cdbc3044a90d1a067d41851, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -82,26 +82,26 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &-2341198036509069145
+--- !u!65 &2592486693732062004
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69195722526937405}
+  m_GameObject: {fileID: 9140307393957172483}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.04450961, y: 0.044509597, z: 0.041928377}
-  m_Center: {x: 0, y: 0.000000004656612, z: 0.020964185}
---- !u!54 &2308707299924304735
+  m_Size: {x: 0.5116034, y: 0.41503108, z: 0.1824764}
+  m_Center: {x: 0, y: 0.05086855, z: 0.0000000037252903}
+--- !u!54 &-4620403940935141338
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69195722526937405}
+  m_GameObject: {fileID: 9140307393957172483}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -111,17 +111,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8839964088261827271
+--- !u!114 &-4974053677618573171
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69195722526937405}
+  m_GameObject: {fileID: 9140307393957172483}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ba19307810bfd9d42b2760b5dc376deb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pickupSound: event:/Environment/Pickup/Dose
-  EnglishName: Cola Can
+  pickupSound: 
+  EnglishName: first aid
