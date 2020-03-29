@@ -6,15 +6,17 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class Pickup : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  [FMODUnity.EventRef]
+  public string pickupSound;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  void Start()
+  {
+
+  }
+
+  // Update is called once per frame
+  void Update()
+  {
+
+  }
 }

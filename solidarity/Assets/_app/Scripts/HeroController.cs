@@ -148,6 +148,8 @@ public class HeroController : MonoBehaviour
     pickup.GetComponent<Collider>().enabled = false;
     pickup.transform.parent = this.transform;
     pickup.transform.localPosition = new Vector3(0, 2, 0);
+
+    PlayPickUpSound(pickup);
   }
 
   private void UnsnapFromLadder()
@@ -215,4 +217,21 @@ public class HeroController : MonoBehaviour
     var ladderbody = ladder.GetComponent<Rigidbody>();
     ladderbody.isKinematic = !touchable;
   }
+
+
+  #region SFX
+
+  private void PlayPickUpSound(Pickup pickup)
+  {
+    if (FMODUnity.RuntimeManager.StudioSystem.getEvent(pickup.pickupSound, out _) == FMOD.RESULT.OK)
+    {
+      FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Pickup", this.gameObject);
+      FMODUnity.RuntimeManager.PlayOneShotAttached(pickup.pickupSound, pickup.gameObject);
+    }
+    else
+    {
+      FMODUnity.RuntimeManager.PlayOneShotAttached("event:/Player/Pickup", this.gameObject);
+    }
+  }
+  #endregion
 }
