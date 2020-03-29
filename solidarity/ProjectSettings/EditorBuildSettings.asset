@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_app/Scenes/main.unity
     guid: 58d7188a812126846a3b7e25c3d071e5
+  - enabled: 1
+    path: Assets/_app/Scenes/IntroScene.unity
+    guid: acd160f1961826046a6f8beca700474c
+  - enabled: 1
+    path: Assets/_app/Scenes/InstructionsScene.unity
+    guid: e6cba8b33660b9e45b655b6a2428bc80
+  - enabled: 1
+    path: Assets/Halle/Scenes/testarea_Intro.unity
+    guid: e578c08aea467074baee2a502e1611fd
   m_configObjects: {}
