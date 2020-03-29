@@ -116,7 +116,10 @@ public class HeroController : MonoBehaviour
           {
             Vector3 direction = snappedToLadder.Up * diry;
             direction *= ladderClimpSpeed;
-            rigidbody.velocity = direction + snappedToLadder.GetComponent<Rigidbody>().velocity + otherhero.rigidbody.velocity;
+            rigidbody.velocity = direction + snappedToLadder.GetComponent<Rigidbody>().velocity;
+            if (otherhero.holdingObject && otherhero.holdingObject.Is<Ladder>()) {
+              rigidbody.velocity += otherhero.rigidbody.velocity;
+            }
 
             if (Mathf.Abs(rigidbody.velocity.y) > 0.1f)
             {

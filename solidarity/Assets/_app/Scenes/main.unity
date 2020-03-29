@@ -51,7 +51,7 @@ LightmapSettings:
     m_IndirectOutputScale: 1
     m_AlbedoBoost: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
+    m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 12
@@ -887,6 +887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: 
   EnglishName: UNTITLED
+  icon: {fileID: 0}
 --- !u!65 &852124099
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1171,7 +1172,7 @@ PrefabInstance:
     - target: {fileID: 3377055795594492530, guid: 368251992952e6d4590c897fe15bc612,
         type: 3}
       propertyPath: m_Radius
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3377055796385223828, guid: 368251992952e6d4590c897fe15bc612,
         type: 3}
@@ -1606,6 +1607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: 
   EnglishName: UNTITLED
+  icon: {fileID: 0}
 --- !u!54 &2090753100
 Rigidbody:
   m_ObjectHideFlags: 0

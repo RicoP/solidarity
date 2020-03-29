@@ -34,13 +34,19 @@ public class GameDirector : MonoBehaviour
 
     foreach (var p in pickups)
     {
+      if (object.Equals(p.icon, null)) continue;
+      if (p.icon == null) continue;
+      if (p.EnglishName == "UNTITLED") continue;
+
       var current = items.LastOrDefault();
       if (current == null)
       {
         items.Add(p);
       }
-      else {
-        if (!current.EnglishName.Equals(p.EnglishName)) {
+      else
+      {
+        if (!current.EnglishName.Equals(p.EnglishName))
+        {
           items.Add(p);
         }
       }
@@ -51,7 +57,8 @@ public class GameDirector : MonoBehaviour
       Debug.Log(i.EnglishName);
     }
 
-    while (true) {
+    while (true)
+    {
       var randItem = items[UnityEngine.Random.Range(0, items.Count)];
       itemsToCollect.Add(randItem);
       FMODUnity.RuntimeManager.StudioSystem.setParameterByName("Inventar", (float)itemsToCollect.Count);
@@ -63,11 +70,13 @@ public class GameDirector : MonoBehaviour
   {
     int index = itemsToCollect.FindIndex(p => p.EnglishName == pickup.EnglishName);
     bool found = index != -1;
-    if (found) {
+    if (found)
+    {
       itemsToCollect.RemoveAt(index);
     }
 
-    if (pickup.transform.parent && pickup.transform.parent.gameObject.Is<HeroController>()) {
+    if (pickup.transform.parent && pickup.transform.parent.gameObject.Is<HeroController>())
+    {
       var character = pickup.transform.parent.gameObject.GetComponent<HeroController>();
       character.TossPickupItem();
       character.touchNotifier.RemovePickup(pickup);
@@ -98,7 +107,6 @@ public class GameDirector : MonoBehaviour
     style.fontSize = (int)(h * Size / 100.0f);
     style.normal.textColor = color;
 
-    GUILayout.Label("");
     GUILayout.Label("");
     GUILayout.Label("Items to Collect:");
 

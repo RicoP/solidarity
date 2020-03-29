@@ -38,20 +38,20 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1609094521}
-  m_IndirectSpecularColor: {r: 0.091726005, g: 0.10540716, b: 0.15319781, a: 1}
+  m_IndirectSpecularColor: {r: 0.09338019, g: 0.10609538, b: 0.15531239, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
     m_IndirectOutputScale: 1
     m_AlbedoBoost: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
+    m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
     serializedVersion: 12
@@ -8259,6 +8259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: 
   EnglishName: UNTITLED
+  icon: {fileID: 0}
 --- !u!54 &185308991
 Rigidbody:
   m_ObjectHideFlags: 0
