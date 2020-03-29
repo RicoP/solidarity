@@ -201,12 +201,13 @@ public class HeroController : MonoBehaviour
 
     MakeTouchable(ladder, false);
 
-    ladder.transform.up = Vector3.up;
-    var pos = ladder.transform.position;
-    pos.y = ladder.LadderLength / 2;
-    ladder.transform.position = pos;
-
     ladder.transform.parent = this.transform;
+
+    ladder.transform.up = Vector3.up;
+    var pos = Vector3.zero;
+    pos.y = ladder.LadderLength / 2;
+    pos.z = -1;
+    ladder.transform.localPosition = pos;
   }
 
   private static void MakeTouchable(Ladder ladder, bool touchable)
