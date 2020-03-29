@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 440284113105150008}
   - component: {fileID: 440284113105150007}
   - component: {fileID: 440284113105150006}
+  - component: {fileID: 3060864697625671204}
   m_Layer: 0
   m_Name: HeroKleter
   m_TagString: Untagged
@@ -60,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 088c6cacc458f6f47ab91324d62d43c5, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -95,6 +96,21 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3060864697625671204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440284113105150005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f9d9c868be2f347bb26cf7d2c3d52b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 440284113105150009}
+  cam: {fileID: 7468310080226122645}
+  listener: 2
 --- !u!1 &5405367903873298557
 GameObject:
   m_ObjectHideFlags: 0

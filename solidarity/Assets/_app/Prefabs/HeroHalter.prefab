@@ -111,6 +111,7 @@ GameObject:
   - component: {fileID: 4421518637514793793}
   - component: {fileID: 4421518637514793797}
   - component: {fileID: 4421518637514793796}
+  - component: {fileID: 1298691916832896130}
   m_Layer: 0
   m_Name: HeroHalter
   m_TagString: Untagged
@@ -159,7 +160,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 088c6cacc458f6f47ab91324d62d43c5, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -206,8 +207,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 757022e5870dff040bceea0ff0d004e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kind: 0
   halterCamera: {fileID: 4421518636807654231}
-  groundCollider: {fileID: 0}
+  touchNotifier: {fileID: 0}
   speed: 10
 --- !u!54 &4421518637514793796
 Rigidbody:
@@ -225,3 +227,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1298691916832896130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4421518637514793806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f9d9c868be2f347bb26cf7d2c3d52b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 4421518637514793794}
+  cam: {fileID: 4421518636807654230}
+  listener: 1

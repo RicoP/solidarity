@@ -16,6 +16,11 @@ public class CustomListener : MonoBehaviour
 
   FMOD.VECTOR playerPosition;
 
+  void Start()
+  {
+    FMODUnity.RuntimeManager.StudioSystem.setNumListeners(2);
+  }
+
   void Update()
   {
     attributes.forward = FMODUnity.RuntimeUtils.ToFMODVector(cam.forward);
