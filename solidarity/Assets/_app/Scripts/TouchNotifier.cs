@@ -16,7 +16,7 @@ public class TouchNotifier : MonoBehaviour
     }
 
     var pickup = other.gameObject.GetComponent<Pickup>();
-    if (pickup)
+    if (pickup && !pickups.Contains(pickup))
     {
       pickups.Add(pickup);
     }

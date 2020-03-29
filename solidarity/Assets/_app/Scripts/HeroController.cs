@@ -135,17 +135,36 @@ public class HeroController : MonoBehaviour
       SnapToLadder(touchNotifier.ladders.First());
     }
 
-    if (pickup == null && touchNotifier.pickups.Any())
+    if (pickup != null)
     {
-      PickUpPickup(touchNotifier.pickups.First());
+      TossPickupItem();
     }
+    else if (touchNotifier.pickups.Any())
+    {
+      //sort pickup items by distance and take first
+      touchNotifier.pickups.Sort((lhs, rhs) => {
+        var lhsDistance = (lhs.transform.position - this.transform.position).sqrMagnitude;
+        var rhsDistance = (rhs.transform.position - this.transform.position).sqrMagnitude;
+        return (int)Mathf.Sign(lhsDistance - rhsDistance);
+      });
+      PickUpPickupItem(touchNotifier.pickups.First());
+    }
+
   }
 
-  private void PickUpPickup(Pickup item)
+  private void TossPickupItem()
+  {
+    pickup.GetComponent<Rigidbody>().isKinematic = false;
+    pickup.GetComponent<Collider>().isTrigger = false;
+    pickup.transform.parent = null;
+    pickup = null;
+  }
+
+  private void PickUpPickupItem(Pickup item)
   {
     pickup = item;
     pickup.GetComponent<Rigidbody>().isKinematic = true;
-    pickup.GetComponent<Collider>().enabled = false;
+    pickup.GetComponent<Collider>().isTrigger = true;
     pickup.transform.parent = this.transform;
     pickup.transform.localPosition = new Vector3(0, 2, 0);
 
