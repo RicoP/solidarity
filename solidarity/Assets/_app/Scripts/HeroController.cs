@@ -23,6 +23,7 @@ public class HeroController : MonoBehaviour
 
   private int groundLayer;
   private Rigidbody rigidbody;
+  private charControl charController;
   private GameObject holdingObject = null;
   private Ladder snappedToLadder;
 
@@ -40,6 +41,7 @@ public class HeroController : MonoBehaviour
   {
     groundLayer = LayerMask.GetMask("Ground");
     rigidbody = this.GetComponent<Rigidbody>();
+    charController = this.GetComponentInChildren<charControl>();
 
     switch (kind)
     {
@@ -92,6 +94,8 @@ public class HeroController : MonoBehaviour
 
         rigidbody.velocity = direction;
 
+        SetBool("walking", rigidbody.velocity.magnitude > 0.1f);
+
         if (Mathf.Abs(rigidbody.velocity.x) > 0.5f && kind == Kind.Holder)
         {
           PlayFootstepSound();
@@ -129,6 +133,12 @@ public class HeroController : MonoBehaviour
         }
       }
     }
+  }
+
+  private void SetBool(string anim, bool on)
+  {
+    if (charController == null) return;
+    charController.anim.SetBool(anim, on);
   }
 
   private void ExecuteAction()
@@ -223,6 +233,8 @@ public class HeroController : MonoBehaviour
 
   private void TossLadder(Ladder ladder)
   {
+    SetBool("pickup", false);
+
     ladder.transform.parent = null;
     MakeTouchable(ladder, true);
     holdingObject = null;
@@ -231,6 +243,8 @@ public class HeroController : MonoBehaviour
   private void PickUpLadder(Ladder ladder)
   {
     if (ladder.Occupied) return;
+
+    SetBool("pickup", true);
 
     holdingObject = ladder.gameObject;
 
