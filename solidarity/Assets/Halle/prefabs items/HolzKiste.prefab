@@ -155,3 +155,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/WoodBox
+  EnglishName: wooden crate

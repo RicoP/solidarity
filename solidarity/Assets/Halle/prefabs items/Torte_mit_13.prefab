@@ -157,6 +157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/Cake
+  EnglishName: cake
 --- !u!1 &6058808331323015900
 GameObject:
   m_ObjectHideFlags: 0

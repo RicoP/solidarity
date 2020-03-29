@@ -123,3 +123,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba19307810bfd9d42b2760b5dc376deb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: 
+  EnglishName: carton

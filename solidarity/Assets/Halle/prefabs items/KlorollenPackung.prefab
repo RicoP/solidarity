@@ -205,8 +205,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3.92, y: 0.79, z: 2.09}
+  m_Center: {x: -1.35, y: 0.36, z: 0.46}
 --- !u!54 &9126699737072835043
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -236,6 +236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/Klopapier
+  EnglishName: toilettpaper pack
 --- !u!1 &8244388288457299980
 GameObject:
   m_ObjectHideFlags: 0

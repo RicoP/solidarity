@@ -345,7 +345,7 @@ Transform:
   m_GameObject: {fileID: 7806694873226493273}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
   m_Children:
   - {fileID: 1024151512834443770}
   - {fileID: 7264859659490429222}
@@ -397,6 +397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupSound: 
+  EnglishName: toycar
 --- !u!1 &8140378654398659694
 GameObject:
   m_ObjectHideFlags: 0

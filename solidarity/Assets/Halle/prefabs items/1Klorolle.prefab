@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8290782892783832528, guid: ca0ce1cb8f7af3040b483ba03efe23de, type: 3}
+  - {fileID: 2100000, guid: 6bde27a1bcfbfe84f82deb27d1e16a08, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -124,3 +124,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/Klopapier
+  EnglishName: toilettpaper

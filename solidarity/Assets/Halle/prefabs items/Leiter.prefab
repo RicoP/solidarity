@@ -156,6 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/LeiterPickup
+  EnglishName: ledder
 --- !u!1 &8672213379769555660
 GameObject:
   m_ObjectHideFlags: 0

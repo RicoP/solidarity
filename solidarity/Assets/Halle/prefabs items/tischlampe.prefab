@@ -14,9 +14,6 @@ GameObject:
   - component: {fileID: 4569758065091305614}
   - component: {fileID: 6600369003812163861}
   - component: {fileID: 7341092859967896365}
-  - component: {fileID: -1606065266274647372}
-  - component: {fileID: 2255359236324984560}
-  - component: {fileID: -8883052278929096829}
   m_Layer: 0
   m_Name: tischlampe
   m_TagString: Untagged
@@ -127,42 +124,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupSound: 
---- !u!114 &-1606065266274647372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9040962872520909165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba19307810bfd9d42b2760b5dc376deb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupSound: event:/Environment/Pickup/Lamp
---- !u!65 &2255359236324984560
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9040962872520909165}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.0039640027, y: 0.0022520493, z: 0.006522475}
-  m_Center: {x: -0.0004151133, y: 0, z: 0.0032650009}
---- !u!114 &-8883052278929096829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9040962872520909165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba19307810bfd9d42b2760b5dc376deb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupSound: 
+  EnglishName: tablelamp

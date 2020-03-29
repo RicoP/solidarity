@@ -76,6 +76,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/WoodBox
+  EnglishName: wooden crate 1
 --- !u!1 &1571974583530749508
 GameObject:
   m_ObjectHideFlags: 0
