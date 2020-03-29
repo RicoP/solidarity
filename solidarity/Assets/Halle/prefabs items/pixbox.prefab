@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: 
   EnglishName: pixbox console
+  icon: {fileID: 2800000, guid: c87c37918af23214cb604a61b610fdc5, type: 3}

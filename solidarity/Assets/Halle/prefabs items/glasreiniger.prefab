@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/Glasreiniger
   EnglishName: Glass Cleaner
+  icon: {fileID: 2800000, guid: ff15cbd098e58404a8d0eb23fd5e3a80, type: 3}

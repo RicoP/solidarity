@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: 
   EnglishName: trashcan
+  icon: {fileID: 2800000, guid: 35313e4492232f343b373665a3676228, type: 3}

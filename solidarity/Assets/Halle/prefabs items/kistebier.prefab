@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/Bierkasten
   EnglishName: beer crate
+  icon: {fileID: 2800000, guid: 7b81864a64016f1438adc471eb69c3c7, type: 3}

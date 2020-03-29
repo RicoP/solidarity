@@ -316,3 +316,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: 
   EnglishName: bomb
+  icon: {fileID: 2800000, guid: ff15fe2f98539ce47ab6375814b5e6cb, type: 3}

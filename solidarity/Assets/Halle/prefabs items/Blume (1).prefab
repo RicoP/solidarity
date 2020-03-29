@@ -1037,6 +1037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: 
   EnglishName: flower with pot
+  icon: {fileID: 2800000, guid: 5e641b4458035af4ab18e22c3431a86b, type: 3}
 --- !u!1 &7130561254775703555
 GameObject:
   m_ObjectHideFlags: 0

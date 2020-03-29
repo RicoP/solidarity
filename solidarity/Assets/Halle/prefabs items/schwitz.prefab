@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: 
   EnglishName: schwitz console
+  icon: {fileID: 2800000, guid: 856af72fc6d700643b31cf60144bfa5d, type: 3}

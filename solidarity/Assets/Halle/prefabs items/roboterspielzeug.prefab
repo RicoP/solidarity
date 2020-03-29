@@ -125,3 +125,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/ToyCar
   EnglishName: toy robot
+  icon: {fileID: 2800000, guid: 0f9f8f62752210c44a03a1ce75aabf64, type: 3}

@@ -723,6 +723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/Huhn
   EnglishName: toychicken
+  icon: {fileID: 2800000, guid: ef15fa50e6879574b9871ccbf701d74f, type: 3}
 --- !u!1 &3660153764898722681
 GameObject:
   m_ObjectHideFlags: 0

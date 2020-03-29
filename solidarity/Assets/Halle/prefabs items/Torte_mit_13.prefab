@@ -158,6 +158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: event:/Environment/Pickup/Cake
   EnglishName: cake
+  icon: {fileID: 2800000, guid: 7fdbac941df8a2743953c6b528f834a8, type: 3}
 --- !u!1 &6058808331323015900
 GameObject:
   m_ObjectHideFlags: 0
