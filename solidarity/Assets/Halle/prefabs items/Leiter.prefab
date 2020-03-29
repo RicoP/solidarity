@@ -155,6 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba19307810bfd9d42b2760b5dc376deb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: event:/Environment/Pickup/LeiterPickup
 --- !u!1 &8672213379769555660
 GameObject:
   m_ObjectHideFlags: 0
