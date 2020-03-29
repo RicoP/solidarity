@@ -235,6 +235,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba19307810bfd9d42b2760b5dc376deb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: event:/Environment/Pickup/Klopapier
 --- !u!1 &8244388288457299980
 GameObject:
   m_ObjectHideFlags: 0
