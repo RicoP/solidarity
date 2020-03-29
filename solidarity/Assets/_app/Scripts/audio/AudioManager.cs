@@ -16,9 +16,15 @@ public class AudioManager : MonoBehaviour
 
   FMOD.Studio.VCA musicVCA, sfxVCA;
 
+  [Header("Audio Volumes")]
   [SerializeField]
   [Range(-80f, 10f)]
   private float musicVolume, sfxVolume = 0f;
+
+  [Header("Parameter Test")]
+  [SerializeField]
+  [Range(0f, 10f)]
+  private float inventar;
 
   void Awake()
   {
@@ -41,6 +47,8 @@ public class AudioManager : MonoBehaviour
   void Update()
   {
     SetVcaVolumes();
+
+    RuntimeManager.StudioSystem.setParameterByName("Inventar", inventar);
   }
 
   private void CreateMusicInstance()
