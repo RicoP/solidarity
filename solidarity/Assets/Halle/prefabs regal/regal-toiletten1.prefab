@@ -1,0 +1,1617 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6199449435402022749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6941040652364078414}
+  - component: {fileID: 2092063922457405304}
+  - component: {fileID: 5635138271914761089}
+  m_Layer: 0
+  m_Name: regal-toiletten1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6941040652364078414
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6199449435402022749}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 8166471873847176064}
+  - {fileID: 6036832796639792798}
+  - {fileID: 3210051646139812301}
+  - {fileID: 5785775459689938387}
+  - {fileID: 5419764406633944723}
+  - {fileID: 7130351174086332207}
+  - {fileID: 9090687234485746658}
+  - {fileID: 1868621750367857003}
+  - {fileID: 890814127000941986}
+  - {fileID: 2885681253854991182}
+  - {fileID: 714917749425527559}
+  - {fileID: 6993007094449744176}
+  - {fileID: 7118990245971132622}
+  - {fileID: 8539034355484597074}
+  - {fileID: 4611948618339461617}
+  - {fileID: 7589398683459358733}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2092063922457405304
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6199449435402022749}
+  m_Mesh: {fileID: -7196802604745430461, guid: 49e6f63b5cc553b43b1d2405457fb808, type: 3}
+--- !u!23 &5635138271914761089
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6199449435402022749}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -6348444384064046424, guid: 49e6f63b5cc553b43b1d2405457fb808, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1001 &394726992846750443
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.049608603
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0065272925
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.019534728
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000000037252903
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008940697
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.99902534
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.044140607
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -545.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &4611948618339461617 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 394726992846750443}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1030316946163334537
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.06539472
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0044770236
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0008747321
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000007450581
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008940697
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.99742675
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.071693204
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -548.222
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &5419764406633944723 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 1030316946163334537}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1527143511858878153
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.06614213
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0077380366
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00087473035
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0000000037252903
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00000008940697
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.99863386
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.052254178
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -185.991
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4999996
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &5785775459689938387 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 1527143511858878153}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1638632686794646916
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0497997
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0063147345
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00087473093
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0000000037252907
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000000089406974
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.99924344
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.03889097
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -184.458
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4999998
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &6036832796639792798 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 1638632686794646916}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2627448134756663850
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.06526801
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.031944573
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.019534735
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000008940697
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0000000055879354
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.057503425
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9983454
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -366.593
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5000005
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &6993007094449744176 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 2627448134756663850}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2850405090256036917
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.049132645
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.029523846
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0008747339
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000008940697
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0000000037252903
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.038888063
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9992436
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -364.457
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &7130351174086332207 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 2850405090256036917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2860083901270666196
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.06593517
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.008122331
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.019534728
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0000000055879354
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008940697
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.9983455
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.057500556
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -546.593
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler (15)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &7118990245971132622 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 2860083901270666196}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3181864789340076823
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.064649075
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.019722342
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.019534731
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000008940698
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000000074505815
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.07693577
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9970361
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -728.825
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &7589398683459358733 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 3181864789340076823}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3745317377384755272
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.05957328
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0047754073
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.019534731
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000005587935
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00000008940696
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.99812233
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.061251655
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -532.977
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5000005
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5000005
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler (14)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &8539034355484597074 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 3745317377384755272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3760389313586036890
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.06472755
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.018732585
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0008747339
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000008940697
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0000000037252903
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.07169613
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9974265
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -368.223
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &8166471873847176064 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 3760389313586036890}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4274530873328193784
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.058977917
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.018117007
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0008747339
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000000037252903
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0664981
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9977866
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -352.374
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &9090687234485746658 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 4274530873328193784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5271035052809248440
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.065316126
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0040993667
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.019534731
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000007450581
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.99703586
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.07693858
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -548.825
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &890814127000941986 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 5271035052809248440}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5517280256177270813
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.05890622
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.019046856
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.019534731
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0000000055879354
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.06124886
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9981226
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -352.977
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &714917749425527559 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 5517280256177270813}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6670984824052187761
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.06547506
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.030947072
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0008747363
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000008940697
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0000000055879354
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.0522514
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.998634
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -365.99
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &1868621750367857003 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 6670984824052187761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7635519159057244887
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.059645064
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.005092067
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0008747321
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000007450581
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.00000008940697
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.99778676
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06649526
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -172.37502
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4999999
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &3210051646139812301 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 7635519159057244887}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7886166891085854804
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6941040652364078414}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.048941445
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.030349497
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.019534735
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00000008940697
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0000000037252903
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.04414348
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9990252
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -365.06
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5000001
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 275da1d579c99c4468a920ce10c367e3, type: 2}
+    - target: {fileID: -927199367670048503, guid: 6478ae76c823bec44a24d8621e75d255,
+        type: 3}
+      propertyPath: m_Name
+      value: Toilette-mit-Boiler (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6478ae76c823bec44a24d8621e75d255, type: 3}
+--- !u!4 &2885681253854991182 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 6478ae76c823bec44a24d8621e75d255,
+    type: 3}
+  m_PrefabInstance: {fileID: 7886166891085854804}
+  m_PrefabAsset: {fileID: 0}

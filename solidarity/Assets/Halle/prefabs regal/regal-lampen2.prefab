@@ -1,0 +1,3057 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1970843574763347375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970843574763347374}
+  m_Layer: 0
+  m_Name: HolzKiste (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970843574763347374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843574763347375}
+  m_LocalRotation: {x: 0.7027417, y: 0.07844887, z: 0.078448884, w: 0.70274156}
+  m_LocalPosition: {x: 0.011322266, y: 0.014472501, z: 0.0033147323}
+  m_LocalScale: {x: 0.01, y: 0.010000001, z: 0.010000001}
+  m_Children:
+  - {fileID: 1970843576331429189}
+  - {fileID: 5797678385568899419}
+  - {fileID: 5797678386055739254}
+  - {fileID: 5797678386267443432}
+  - {fileID: 5797678386595922176}
+  - {fileID: 5797678385036781782}
+  m_Father: {fileID: 6783374334889062864}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 12.739, z: 0}
+--- !u!1 &1970843575099706145
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970843575099706144}
+  - component: {fileID: 1970843575099706150}
+  - component: {fileID: 1970843575099706151}
+  m_Layer: 0
+  m_Name: HolzKiste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970843575099706144
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843575099706145}
+  m_LocalRotation: {x: 0.7071068, y: 0.000000057601156, z: -0.7071067, w: 0.000000057601167}
+  m_LocalPosition: {x: -0.37101716, y: 0.6614875, z: -0.14731857}
+  m_LocalScale: {x: 0.919926, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1970843575344347404}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1970843575099706150
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843575099706145}
+  m_Mesh: {fileID: -3670672232575192825, guid: 78a6517b4963a9945a5cf32fc4afdea8, type: 3}
+--- !u!23 &1970843575099706151
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843575099706145}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9fe9c97ab298ca54c8e715c1433fca14, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1970843575291715930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970843575291715929}
+  m_Layer: 0
+  m_Name: HolzKiste (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970843575291715929
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843575291715930}
+  m_LocalRotation: {x: 0.51731503, y: 0.4820635, z: 0.4820636, w: 0.5173149}
+  m_LocalPosition: {x: 0.012154884, y: 0.0038761513, z: 0.0033147316}
+  m_LocalScale: {x: 0.010000003, y: 0.01, z: 0.010000001}
+  m_Children:
+  - {fileID: 1970843576550831141}
+  - {fileID: 5797678385276994901}
+  - {fileID: 5797678384696888635}
+  - {fileID: 5797678386781126635}
+  - {fileID: 5797678386103108050}
+  - {fileID: 5797678386549904689}
+  m_Father: {fileID: 6783374334889062864}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 85.96001, z: 0}
+--- !u!1 &1970843575325109889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970843575325109888}
+  - component: {fileID: 1970843575325109894}
+  - component: {fileID: 1970843575325109895}
+  m_Layer: 0
+  m_Name: HolzKiste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970843575325109888
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843575325109889}
+  m_LocalRotation: {x: 0.7071068, y: 0.000000057601156, z: -0.7071067, w: 0.000000057601167}
+  m_LocalPosition: {x: -0.37101716, y: 0.6614875, z: -0.14731857}
+  m_LocalScale: {x: 0.919926, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1970843576451957524}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1970843575325109894
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843575325109889}
+  m_Mesh: {fileID: -3670672232575192825, guid: 78a6517b4963a9945a5cf32fc4afdea8, type: 3}
+--- !u!23 &1970843575325109895
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843575325109889}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9fe9c97ab298ca54c8e715c1433fca14, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1970843575344347405
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970843575344347404}
+  m_Layer: 0
+  m_Name: HolzKiste (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970843575344347404
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843575344347405}
+  m_LocalRotation: {x: 0.70707, y: 0.007218499, z: 0.0072184997, w: 0.70706993}
+  m_LocalPosition: {x: -0.011156425, y: 0.014530827, z: 0.0033147323}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children:
+  - {fileID: 1970843575099706144}
+  - {fileID: 5797678385391715781}
+  - {fileID: 5797678385310963348}
+  - {fileID: 5797678386426814708}
+  - {fileID: 5797678385298559061}
+  - {fileID: 5797678384688445079}
+  m_Father: {fileID: 6783374334889062864}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 1.1700001, z: 0}
+--- !u!1 &1970843575808757427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970843575808757426}
+  m_Layer: 0
+  m_Name: HolzKiste (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970843575808757426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843575808757427}
+  m_LocalRotation: {x: 0.51731503, y: 0.4820635, z: 0.4820636, w: 0.5173149}
+  m_LocalPosition: {x: 0.0015340518, y: 0.0038761513, z: 0.0033147316}
+  m_LocalScale: {x: 0.010000003, y: 0.01, z: 0.010000001}
+  m_Children:
+  - {fileID: 1970843576050834528}
+  - {fileID: 5797678386435201373}
+  - {fileID: 5797678385828442473}
+  - {fileID: 5797678386250753568}
+  - {fileID: 5797678385553303900}
+  - {fileID: 5797678385476922282}
+  m_Father: {fileID: 6783374334889062864}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 85.96001, z: 0}
+--- !u!1 &1970843576048244397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970843576048244396}
+  - component: {fileID: 1970843576048244386}
+  - component: {fileID: 1970843576048244387}
+  m_Layer: 0
+  m_Name: HolzKiste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970843576048244396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843576048244397}
+  m_LocalRotation: {x: 0.7071068, y: 0.000000057601156, z: -0.7071067, w: 0.000000057601167}
+  m_LocalPosition: {x: -0.37101716, y: 0.6614875, z: -0.14731857}
+  m_LocalScale: {x: 0.919926, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1970843576360088896}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1970843576048244386
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843576048244397}
+  m_Mesh: {fileID: -3670672232575192825, guid: 78a6517b4963a9945a5cf32fc4afdea8, type: 3}
+--- !u!23 &1970843576048244387
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843576048244397}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9fe9c97ab298ca54c8e715c1433fca14, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1970843576050834529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970843576050834528}
+  - component: {fileID: 1970843576050834534}
+  - component: {fileID: 1970843576050834535}
+  m_Layer: 0
+  m_Name: HolzKiste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970843576050834528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843576050834529}
+  m_LocalRotation: {x: 0.7071068, y: 0.000000057601156, z: -0.7071067, w: 0.000000057601167}
+  m_LocalPosition: {x: -0.37101716, y: 0.6614875, z: -0.14731857}
+  m_LocalScale: {x: 0.919926, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1970843575808757426}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1970843576050834534
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843576050834529}
+  m_Mesh: {fileID: -3670672232575192825, guid: 78a6517b4963a9945a5cf32fc4afdea8, type: 3}
+--- !u!23 &1970843576050834535
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843576050834529}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9fe9c97ab298ca54c8e715c1433fca14, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1970843576331429190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970843576331429189}
+  - component: {fileID: 1970843576331429211}
+  - component: {fileID: 1970843576331429188}
+  m_Layer: 0
+  m_Name: HolzKiste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970843576331429189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843576331429190}
+  m_LocalRotation: {x: 0.7071068, y: 0.000000057601156, z: -0.7071067, w: 0.000000057601167}
+  m_LocalPosition: {x: -0.37101716, y: 0.6614875, z: -0.14731857}
+  m_LocalScale: {x: 0.919926, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1970843574763347374}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1970843576331429211
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843576331429190}
+  m_Mesh: {fileID: -3670672232575192825, guid: 78a6517b4963a9945a5cf32fc4afdea8, type: 3}
+--- !u!23 &1970843576331429188
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843576331429190}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9fe9c97ab298ca54c8e715c1433fca14, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1970843576360088897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970843576360088896}
+  m_Layer: 0
+  m_Name: HolzKiste (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970843576360088896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843576360088897}
+  m_LocalRotation: {x: 0.7027417, y: 0.07844887, z: 0.078448884, w: 0.70274156}
+  m_LocalPosition: {x: 0.0007014346, y: 0.014472501, z: 0.0033147323}
+  m_LocalScale: {x: 0.01, y: 0.010000001, z: 0.010000001}
+  m_Children:
+  - {fileID: 1970843576048244396}
+  - {fileID: 5797678385861044190}
+  - {fileID: 5797678384948427502}
+  - {fileID: 5797678386503767290}
+  - {fileID: 5797678385654837284}
+  - {fileID: 5797678386685814698}
+  m_Father: {fileID: 6783374334889062864}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 12.739, z: 0}
+--- !u!1 &1970843576451957525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970843576451957524}
+  m_Layer: 0
+  m_Name: HolzKiste (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970843576451957524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843576451957525}
+  m_LocalRotation: {x: 0.6986213, y: -0.10921704, z: -0.109217055, w: 0.6986212}
+  m_LocalPosition: {x: -0.011348037, y: 0.0034443657, z: 0.003314731}
+  m_LocalScale: {x: 0.01, y: 0.010000001, z: 0.01}
+  m_Children:
+  - {fileID: 1970843575325109888}
+  - {fileID: 5797678385398304438}
+  - {fileID: 5797678385202922476}
+  - {fileID: 5797678386334572165}
+  - {fileID: 5797678385615263068}
+  - {fileID: 5797678385414437299}
+  m_Father: {fileID: 6783374334889062864}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -17.771, z: 0}
+--- !u!1 &1970843576550831142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970843576550831141}
+  - component: {fileID: 1970843576550831163}
+  - component: {fileID: 1970843576550831140}
+  m_Layer: 0
+  m_Name: HolzKiste
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1970843576550831141
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843576550831142}
+  m_LocalRotation: {x: 0.7071068, y: 0.000000057601156, z: -0.7071067, w: 0.000000057601167}
+  m_LocalPosition: {x: -0.37101716, y: 0.6614875, z: -0.14731857}
+  m_LocalScale: {x: 0.919926, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1970843575291715929}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1970843576550831163
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843576550831142}
+  m_Mesh: {fileID: -3670672232575192825, guid: 78a6517b4963a9945a5cf32fc4afdea8, type: 3}
+--- !u!23 &1970843576550831140
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970843576550831142}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9fe9c97ab298ca54c8e715c1433fca14, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &7527831495428703171
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6783374334889062864}
+  - component: {fileID: 2555904645039868902}
+  - component: {fileID: 8089851212311344927}
+  m_Layer: 0
+  m_Name: regal-lampen2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6783374334889062864
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7527831495428703171}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 1970843576451957524}
+  - {fileID: 1970843575344347404}
+  - {fileID: 1970843576360088896}
+  - {fileID: 1970843575808757426}
+  - {fileID: 1970843574763347374}
+  - {fileID: 1970843575291715929}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2555904645039868902
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7527831495428703171}
+  m_Mesh: {fileID: 6894428203817054813, guid: 1888608a1a55d6d4984aa865cf1de3c0, type: 3}
+--- !u!23 &8089851212311344927
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7527831495428703171}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: -6348444384064046424, guid: 1888608a1a55d6d4984aa865cf1de3c0, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1001 &1970843574597826772
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843575808757426}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.16599989
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.36762968
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.31100082
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.65047675
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3973641
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2596602
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.59292364
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -77.884
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 140.535
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -444.83002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (74)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678385476922282 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843574597826772}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843574639997477
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843574763347374}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.22099996
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.309
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0909996
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.40758088
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.40758085
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5778216
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57782173
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -70.396
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (70)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678385568899419 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843574639997477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843574657432098
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843575808757426}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25600004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.285
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.29500008
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.48858002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.12583265
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.86328167
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.014161776
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -11.737
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -59.908
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -171.341
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (73)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678385553303900 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843574657432098}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843574692406106
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843576360088896}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25600004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.285
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.29500008
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.48858002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.12583265
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.86328167
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.014161776
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -11.737
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -59.908
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -171.341
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (73)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678385654837284 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843574692406106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843574719383074
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843576451957524}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25600004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.285
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.29500008
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.48858002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.12583265
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.86328167
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.014161776
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -11.737
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -59.908
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -171.341
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (73)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678385615263068 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843574719383074}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843574902179306
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843575344347404}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.15904522
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.40445444
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07899952
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.08243283
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7965698
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.43782404
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.408646
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -39.061
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -111.34601
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -39.048
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (71)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678385310963348 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843574902179306}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843574905996075
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843575344347404}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25600004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.285
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.29500008
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.48858002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.12583265
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.86328167
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.014161776
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -11.737
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -59.908
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -171.341
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (73)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678385298559061 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843574905996075}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843574935819819
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843575291715929}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.22099996
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.309
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0909996
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.40758088
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.40758085
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5778216
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57782173
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -70.396
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (70)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678385276994901 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843574935819819}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843574940212680
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843576451957524}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.22099996
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.309
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0909996
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.40758088
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.40758085
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5778216
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57782173
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -70.396
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (70)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678385398304438 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843574940212680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843574949353147
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843575344347404}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.22099996
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.309
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0909996
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.40758088
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.40758085
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5778216
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57782173
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -70.396
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (70)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678385391715781 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843574949353147}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843575056476877
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843576451957524}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.16599989
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.36762968
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.31100082
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.65047675
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3973641
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2596602
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.59292364
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -77.884
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 140.535
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -444.83002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (74)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678385414437299 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843575056476877}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843575126321552
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843576360088896}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.15904522
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.40445444
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07899952
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.08243283
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7965698
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.43782404
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.408646
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -39.061
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -111.34601
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -39.048
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (71)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678384948427502 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843575126321552}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843575165893544
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843574763347374}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.16599989
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.36762968
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.31100082
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.65047675
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3973641
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2596602
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.59292364
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -77.884
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 140.535
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -444.83002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (74)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678385036781782 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843575165893544}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843575280685202
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843576451957524}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.15904522
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.40445444
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07899952
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.08243283
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7965698
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.43782404
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.408646
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -39.061
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -111.34601
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -39.048
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (71)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678385202922476 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843575280685202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843575379680837
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843575291715929}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.15904522
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.40445444
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07899952
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.08243283
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7965698
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.43782404
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.408646
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -39.061
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -111.34601
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -39.048
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (71)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678384696888635 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843575379680837}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843575388005865
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843575344347404}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.16599989
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.36762968
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.31100082
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.65047675
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3973641
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2596602
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.59292364
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -77.884
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 140.535
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -444.83002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (74)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678384688445079 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843575388005865}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843575617770110
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843574763347374}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25600004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.285
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.29500008
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.48858002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.12583265
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.86328167
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.014161776
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -11.737
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -59.908
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -171.341
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (73)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678386595922176 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843575617770110}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843575671850575
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843575291715929}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.16599989
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.36762968
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.31100082
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.65047675
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3973641
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2596602
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.59292364
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -77.884
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 140.535
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -444.83002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (74)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678386549904689 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843575671850575}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843575806751956
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843576360088896}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.16599989
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.36762968
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.31100082
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.65047675
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3973641
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.2596602
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.59292364
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -77.884
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 140.535
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -444.83002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (74)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678386685814698 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843575806751956}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843575834913941
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843575291715929}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0867877
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0068437755
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.34962654
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.004069322
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.66534495
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7463664
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.015388518
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -83.368004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -7.163
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -171.257
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100.000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (72)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678386781126635 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843575834913941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843575891709435
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843576451957524}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0867877
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0068437755
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.34962654
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.004069322
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.66534495
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7463664
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.015388518
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -83.368004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -7.163
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -171.257
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100.000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (72)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678386334572165 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843575891709435}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843576059447843
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843575808757426}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.22099996
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.309
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0909996
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.40758088
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.40758085
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5778216
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57782173
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -70.396
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (70)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678386435201373 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843576059447843}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843576067847050
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843575344347404}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0867877
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0068437755
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.34962654
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.004069322
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.66534495
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7463664
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.015388518
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -83.368004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -7.163
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -171.257
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100.000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (72)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678386426814708 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843576067847050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843576112252804
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843576360088896}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0867877
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0068437755
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.34962654
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.004069322
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.66534495
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7463664
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.015388518
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -83.368004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -7.163
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -171.257
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100.000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (72)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678386503767290 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843576112252804}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843576166491144
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843574763347374}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.15904522
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.40445444
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07899952
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.08243283
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7965698
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.43782404
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.408646
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -39.061
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -111.34601
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -39.048
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (71)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678386055739254 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843576166491144}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843576248996524
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843575291715929}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25600004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.285
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.29500008
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.48858002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.12583265
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.86328167
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.014161776
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -11.737
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -59.908
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -171.341
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (73)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678386103108050 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843576248996524}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843576361419670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843574763347374}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0867877
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0068437755
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.34962654
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.004069322
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.66534495
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7463664
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.015388518
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -83.368004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -7.163
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -171.257
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100.000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (72)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678386267443432 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843576361419670}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843576378324318
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843575808757426}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0867877
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0068437755
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.34962654
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.004069322
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.66534495
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7463664
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.015388518
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -83.368004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -7.163
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -171.257
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100.000015
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (72)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678386250753568 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843576378324318}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843576492979360
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843576360088896}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.22099996
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.309
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0909996
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.40758088
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.40758085
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5778216
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57782173
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -70.396
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (70)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678385861044190 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843576492979360}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1970843576528003607
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1970843575808757426}
+    m_Modifications:
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.15904522
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.40445444
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.07899952
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.08243283
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7965698
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.43782404
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.408646
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -39.061
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -111.34601
+      objectReference: {fileID: 0}
+    - target: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -39.048
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040962872520909165, guid: b3238a23e73eb5147aba0be93bc8570c,
+        type: 3}
+      propertyPath: m_Name
+      value: tischlampe (71)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b3238a23e73eb5147aba0be93bc8570c, type: 3}
+--- !u!4 &5797678385828442473 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5416891421201027966, guid: b3238a23e73eb5147aba0be93bc8570c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1970843576528003607}
+  m_PrefabAsset: {fileID: 0}
