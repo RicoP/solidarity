@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2954734955505821880}
   - component: {fileID: 6078264614843683470}
   - component: {fileID: 533355626732875383}
-  - component: {fileID: 7698442557039168225}
-  - component: {fileID: 3129542653700784917}
-  - component: {fileID: 4588913683095587704}
+  - component: {fileID: 1136449106519169039}
+  - component: {fileID: -2094198392873420507}
+  - component: {fileID: 1032882114006313615}
   m_Layer: 0
   m_Name: dose3
   m_TagString: Untagged
@@ -28,9 +28,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2259129233019001515}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 25, y: 25, z: 25}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 5.3783174, y: -0.0009216659, z: -13.10891}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &7698442557039168225
+--- !u!65 &1136449106519169039
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,7 +95,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.020457651, y: 0.020457646, z: 0.019271258}
   m_Center: {x: 0, y: 0.0000000018626448, z: 0.009644847}
---- !u!54 &3129542653700784917
+--- !u!54 &-2094198392873420507
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +111,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4588913683095587704
+--- !u!114 &1032882114006313615
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

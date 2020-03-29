@@ -88,9 +88,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3292813766604000727}
-  - component: {fileID: 3513443329728226396}
-  - component: {fileID: 7535231332125732959}
-  - component: {fileID: 130424916246053092}
+  - component: {fileID: 2032798530450325337}
+  - component: {fileID: -7072119475274242322}
+  - component: {fileID: 5976967660519860734}
   m_Layer: 0
   m_Name: Gitarre
   m_TagString: Untagged
@@ -106,7 +106,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2011197482446651332}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 15.754609, y: 2.4299464e-16, z: -10.943506}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7472547769712623855}
@@ -115,7 +115,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &3513443329728226396
+--- !u!65 &2032798530450325337
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,9 +126,9 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.54, y: 0.42, z: 1}
-  m_Center: {x: -1.31, y: 0.15, z: 0}
---- !u!54 &7535231332125732959
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &-7072119475274242322
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,7 +144,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &130424916246053092
+--- !u!114 &5976967660519860734
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 132106342787495486}
   - component: {fileID: 8975199874784136200}
   - component: {fileID: 3437048955302080753}
-  - component: {fileID: 6097279592628177518}
-  - component: {fileID: 4073553441375546448}
-  - component: {fileID: 972777481416691724}
+  - component: {fileID: 4247258650547926604}
+  - component: {fileID: 538264543037037007}
+  - component: {fileID: -5948722387681561667}
   m_Layer: 0
   m_Name: pixbox
   m_TagString: Untagged
@@ -28,9 +28,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4003154557385983021}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 9.101843, y: 0.061353527, z: -10.708351}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &6097279592628177518
+--- !u!65 &4247258650547926604
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,7 +95,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.004162239, y: 0.0066288053, z: 0.00166352}
   m_Center: {x: -0.000049862894, y: 0.00005261634, z: 0.00021822519}
---- !u!54 &4073553441375546448
+--- !u!54 &538264543037037007
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +111,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &972777481416691724
+--- !u!114 &-5948722387681561667
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

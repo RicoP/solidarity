@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8549077256496313368}
   - component: {fileID: 864527057753361966}
   - component: {fileID: 6396206224153621207}
-  - component: {fileID: 1730055613542542968}
-  - component: {fileID: 408583358950347058}
-  - component: {fileID: 8715883679222257423}
+  - component: {fileID: 1758226587624070738}
+  - component: {fileID: -3463021239643688649}
+  - component: {fileID: 2410684787880115342}
   m_Layer: 0
   m_Name: roboterspielzeug
   m_TagString: Untagged
@@ -28,8 +28,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4683521101639419403}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 10.371404, y: 0.008911044, z: -9.808406}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &1730055613542542968
+--- !u!65 &1758226587624070738
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,7 +95,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0050753043, y: 0.0037416776, z: 0.0073750746}
   m_Center: {x: 0, y: -0.000067315166, z: 0.003598427}
---- !u!54 &408583358950347058
+--- !u!54 &-3463021239643688649
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +111,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8715883679222257423
+--- !u!114 &2410684787880115342
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

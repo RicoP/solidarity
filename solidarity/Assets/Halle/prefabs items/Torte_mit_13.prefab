@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 472e91269c023d64fb1a3dcc171da2bf, type: 2}
+  - {fileID: 2100000, guid: 7f40ee55f1df174438280b23c99fe03b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -88,9 +88,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 619917181943240804}
-  - component: {fileID: 1393205088848421068}
-  - component: {fileID: 3371780357536056071}
-  - component: {fileID: 6466342029501776363}
+  - component: {fileID: -5719640188217508726}
+  - component: {fileID: 2125072402873812023}
+  - component: {fileID: 2743265376855993749}
   m_Layer: 0
   m_Name: Torte_mit_13
   m_TagString: Untagged
@@ -106,7 +106,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4521960082475690615}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 9.99481, y: 3.5900515e-16, z: -16.168156}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8698223888602047076}
@@ -115,7 +115,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1393205088848421068
+--- !u!65 &-5719640188217508726
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,9 +126,9 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.54, y: 1.21, z: 1.54}
-  m_Center: {x: 0, y: 0.6, z: 0}
---- !u!54 &3371780357536056071
+  m_Size: {x: 1.6425228, y: 0.7195339, z: 1.6068268}
+  m_Center: {x: 0.03569603, y: 0.36976695, z: -0.05864334}
+--- !u!54 &2125072402873812023
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -144,7 +144,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6466342029501776363
+--- !u!114 &2743265376855993749
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -293,7 +293,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5483c0de821098e43a94825ff411ea3a, type: 2}
+  - {fileID: 2100000, guid: 7f40ee55f1df174438280b23c99fe03b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 5255599588148067013}
   - component: {fileID: 4322880220627609873}
   - component: {fileID: 3680368036010999362}
-  - component: {fileID: 5971360563889310595}
-  - component: {fileID: 263217749774710326}
-  - component: {fileID: 4564535736921379690}
+  - component: {fileID: 8822462536770625324}
+  - component: {fileID: -9222531719837357249}
+  - component: {fileID: -5672457888385742577}
   m_Layer: 0
   m_Name: glasreiniger
   m_TagString: Untagged
@@ -28,8 +28,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711058620145180215}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 15.890607, y: 0.00046502275, z: -12.398794}
   m_LocalScale: {x: 17.812622, y: 5.9050765, z: 17.812618}
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &5971360563889310595
+--- !u!65 &8822462536770625324
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,7 +95,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.021429267, y: 0.02035447, z: 0.056838285}
   m_Center: {x: 0.0007146336, y: 0.00017723672, z: 0.028419143}
---- !u!54 &263217749774710326
+--- !u!54 &-9222531719837357249
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +111,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &4564535736921379690
+--- !u!114 &-5672457888385742577
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

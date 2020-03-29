@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4196459466072214722}
   - component: {fileID: 5145317604272928500}
   - component: {fileID: 1466869950974757389}
-  - component: {fileID: 2886493364696398595}
-  - component: {fileID: 2886493364696398594}
-  - component: {fileID: 2886493364696398593}
+  - component: {fileID: 6819094143827508750}
+  - component: {fileID: -2447925589699913316}
+  - component: {fileID: 6661585815042873825}
   m_Layer: 0
   m_Name: kistebier
   m_TagString: Untagged
@@ -28,9 +28,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 893833127449444049}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 150, y: 150, z: 150}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 8.210623, y: 0.000035678135, z: -11.261683}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &2886493364696398595
+--- !u!65 &6819094143827508750
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,9 +93,9 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.0076123425, y: 0.0059979963, z: 0.0049762856}
-  m_Center: {x: -0.000087138025, y: 0.000004275119, z: 0.0024877866}
---- !u!54 &2886493364696398594
+  m_Size: {x: 0.007612343, y: 0.005997997, z: 0.004976286}
+  m_Center: {x: -0.00008713803, y: 0.000004275119, z: 0.0024877868}
+--- !u!54 &-2447925589699913316
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +111,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2886493364696398593
+--- !u!114 &6661585815042873825
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

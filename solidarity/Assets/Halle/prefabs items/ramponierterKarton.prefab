@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 597923055143502217}
   - component: {fileID: 8437275540877441983}
   - component: {fileID: 2750485569784809286}
-  - component: {fileID: 5859544118819372173}
-  - component: {fileID: 6248497061311521215}
-  - component: {fileID: 8954087287147725987}
+  - component: {fileID: 9220882454862167189}
+  - component: {fileID: -3812708221591769505}
+  - component: {fileID: -8999913686867730523}
   m_Layer: 0
   m_Name: ramponierterKarton
   m_TagString: Untagged
@@ -28,8 +28,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4474156909956346778}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.79683053, y: -0.5933425, z: 0.10118455, w: 0.05260694}
+  m_LocalPosition: {x: 11.878781, y: 0.82608044, z: -9.543766}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &5859544118819372173
+--- !u!65 &9220882454862167189
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,9 +93,9 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1845653, y: 1.1979657, z: 0.8352139}
-  m_Center: {x: -0.0018773483, y: 0.0050907633, z: 0.38431412}
---- !u!54 &6248497061311521215
+  m_Size: {x: 1.1845651, y: 1.1979656, z: 0.8352138}
+  m_Center: {x: -0.0018764194, y: 0.005090769, z: 0.3843141}
+--- !u!54 &-3812708221591769505
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +111,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8954087287147725987
+--- !u!114 &-8999913686867730523
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

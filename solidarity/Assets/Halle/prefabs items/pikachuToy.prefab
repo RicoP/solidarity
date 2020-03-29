@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 1503532758407567913}
   - component: {fileID: 7603933988964851743}
   - component: {fileID: 4231713249957977318}
-  - component: {fileID: 2441784738482906395}
-  - component: {fileID: 6132926186194099865}
-  - component: {fileID: 6894084549208839437}
+  - component: {fileID: 1868786541212167088}
+  - component: {fileID: -2434001642606941884}
+  - component: {fileID: -8255159622283455601}
   m_Layer: 0
   m_Name: pikachuToy
   m_TagString: Untagged
@@ -28,9 +28,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2487894419527510074}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: 16.739515, y: 0.0030106232, z: -12.351523}
+  m_LocalScale: {x: 100, y: 100, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -82,7 +82,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &2441784738482906395
+--- !u!65 &1868786541212167088
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,7 +95,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00581653, y: 0.0027744912, z: 0.006306708}
   m_Center: {x: -0.00019717915, y: 0.00025528617, z: 0.0031232475}
---- !u!54 &6132926186194099865
+--- !u!54 &-2434001642606941884
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +111,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6894084549208839437
+--- !u!114 &-8255159622283455601
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
