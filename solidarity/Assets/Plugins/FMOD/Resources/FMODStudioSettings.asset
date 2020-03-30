@@ -18,8 +18,8 @@ MonoBehaviour:
   sourceProjectPath: 
   sourceBankPath: Audio Banks
   SourceBankPathUnformatted: 
-  AutomaticEventLoading: 1
-  BankLoadType: 0
+  AutomaticEventLoading: 0
+  BankLoadType: 2
   AutomaticSampleLoading: 0
   EncryptionKey: 
   ImportType: 0

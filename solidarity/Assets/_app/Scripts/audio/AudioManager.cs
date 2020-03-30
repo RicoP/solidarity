@@ -10,9 +10,9 @@ public class AudioManager : MonoBehaviour
 
   [FMODUnity.EventRef]
   [SerializeField]
-  private string musicEvent;
+  private string musicEvent, ambienceEvent;
 
-  FMOD.Studio.EventInstance musicInstance;
+  FMOD.Studio.EventInstance musicInstance, ambienceInstance;
 
   FMOD.Studio.VCA musicVCA, sfxVCA;
 
@@ -34,10 +34,21 @@ public class AudioManager : MonoBehaviour
     }
     else if (instance != this)
       Destroy(gameObject);
+
+ 
+    StartCoroutine(LoadAudio());
   }
 
-  void Start()
+  IEnumerator LoadAudio()
   {
+    RuntimeManager.LoadBank("Master", true);
+    RuntimeManager.LoadBank("Master.strings", true);
+
+    while (!RuntimeManager.HasBankLoaded("Master") || !RuntimeManager.HasBankLoaded("Master.strings"))
+    {
+      yield return new WaitForEndOfFrame();
+    }
+
     GetVCAs();
     CreateMusicInstance();
     StartMusicInstance();
@@ -51,11 +62,14 @@ public class AudioManager : MonoBehaviour
   private void CreateMusicInstance()
   {
     musicInstance = RuntimeManager.CreateInstance(musicEvent);
+    ambienceInstance = RuntimeManager.CreateInstance(ambienceEvent);
+
   }
 
   private void StartMusicInstance()
   {
     CheckResult(musicInstance.start());
+    CheckResult(ambienceInstance.start());
   }
 
   private void GetVCAs()
