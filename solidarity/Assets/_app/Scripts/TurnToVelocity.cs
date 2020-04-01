@@ -16,7 +16,7 @@ public class TurnToVelocity : MonoBehaviour
     var velocity = rigidbody.velocity;
     velocity.y = 0; //project to xz plane
 
-    if (velocity.sqrMagnitude > 0)
+    if (velocity.sqrMagnitude > 0.1f)
     {
       transform.forward = velocity.normalized;
     }
