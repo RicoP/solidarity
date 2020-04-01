@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class GameRenderer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  //GameRenderManager  is initialized in Awake
+  void Start()
+  {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+  }
+
+  void Update()
+  {
+
+  }
 }
