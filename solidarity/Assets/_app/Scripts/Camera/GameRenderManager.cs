@@ -38,121 +38,62 @@ public class GameRenderManager : MonoBehaviour
 
   void Awake()
   {
-    Debug.Log("Awake");
     if (Instance != null)
     {
       Destroy(this.gameObject);
       return;
     }
 
-    int i = 0;
-    Debug.Log("Awake " + (i++));
-    
-    Debug.Log("Awake " + (i++));
     style.alignment = TextAnchor.UpperLeft;
     style.normal.textColor = color;
     style.fontSize = (int)(Screen.height * FontSize / 100.0f);
 
-    Debug.Log("Awake " + (i++));
     layerMask = LayerMask.NameToLayer("RenderCamera");
-
-    Debug.Log("Awake " + (i++));
     Instance = this;
-    Debug.Log("Awake " + (i++));
-    var go = this.gameObject;
-    Debug.Log("Awake " + (i++));
+
     DontDestroyOnLoad(this.gameObject);
-    Debug.Log("Awake " + (i++));
-    go.transform.localPosition = Vector3.zero;
-    Debug.Log("Awake " + (i++));
+    this.gameObject.transform.localPosition = Vector3.zero;
+    this.gameObject.layer = layerMask;
 
     //Create MainGame Camera
-    Debug.Log("Awake " + (i++));
-    gameCamera = go.AddComponent<Camera>();
-    //camera.clearFlags = CameraClearFlags.Nothing; //???
-    Debug.Log("Awake " + (i++));
+    gameCamera = this.gameObject.AddComponent<Camera>();
     gameCamera.clearFlags = CameraClearFlags.Color;
-    Debug.Log("Awake " + (i++));
     gameCamera.backgroundColor = Color.black;
-    Debug.Log("Awake " + (i++));
     gameCamera.orthographic = true;
-    Debug.Log("Awake " + (i++));
     gameCamera.orthographicSize = .5f;
-    Debug.Log("Awake " + (i++));
     gameCamera.nearClipPlane = 0.1f;
-    Debug.Log("Awake " + (i++));
     gameCamera.farClipPlane = 2;
-    Debug.Log("Awake " + (i++));
     gameCamera.useOcclusionCulling = false;
-    Debug.Log("Awake " + (i++));
     gameCamera.cullingMask = 1 << layerMask;
-    Debug.Log("Awake " + (i++));
     gameCamera.depth = float.MaxValue; //make sure this camera is rendered last.
-    Debug.Log("Awake " + (i++));
 
     renderPlane = GameObject.CreatePrimitive(PrimitiveType.Quad);
-    Debug.Log("Awake " + (i++));
     renderPlane.name = "renderPlane";
-    Debug.Log("Awake " + (i++));
-    renderPlane.transform.parent = go.transform;
-    Debug.Log("Awake " + (i++));
+    renderPlane.transform.parent = this.gameObject.transform;
     renderPlane.transform.localPosition = new Vector3(0, 0, 1);
-    Debug.Log("Awake " + (i++));
-    renderPlane.GetComponent<Collider>().enabled = false;
-    Debug.Log("Awake " + (i++));
-    renderPlane.GetComponent<MeshRenderer>().material = renderTextureMaterial;
-    Debug.Log("Awake " + (i++));
 
-    go.layer = layerMask;
-    Debug.Log("Awake " + (i++));
+    if (renderPlane.TryGetComponent(out Collider collider))
+    {
+      Destroy(collider);
+    }
+
+    renderPlane.GetComponent<MeshRenderer>().material = renderTextureMaterial;
     renderPlane.layer = layerMask;
 
-    //Create Render Texture
-    Debug.Log("Awake " + (i++));
     RefreshRenderTexture();
-    Debug.Log("Awake end");
-
   }
 
   private void RefreshRenderTexture()
   {
-    Debug.Log("RefreshRenderTexture");
-
     renderTexture.Release();
     renderTexture.width = Width();
     renderTexture.height = Height();
-
-    Debug.Log(String.Format("New resolution: {0:.0}, {1:.0}", renderTexture.width, renderTexture.height));
 
     fpslistIndex = 0;
     min = float.NaN;
     max = float.NaN;
 
     invalidated = false;
-    RerenderAllCameras();
-    Debug.Log("RefreshRenderTexture end");
-  }
-
-  /// <summary>
-  /// force all cameras to render so we don't have
-  /// flashing images after a Rendertexture resize.
-  /// </summary>
-  private void RerenderAllCameras()
-  {
-    Debug.Log("RerenderAllCameras");
-
-    Camera[] cameras = GameObject.FindObjectsOfType<Camera>();
-
-    for (int i = 0; i < cameras.Length; i++)
-    {
-      Camera camera = cameras[i];
-      if (camera != this.gameCamera)
-      {
-        camera.Render();
-      }
-    }
-    Debug.Log("RerenderAllCameras end");
-
   }
 
   public int Width()
@@ -168,8 +109,6 @@ public class GameRenderManager : MonoBehaviour
 
   public void OnPreRender()
   {
-    Debug.Log("OnPreRender");
-
     const float DesiredAspectRatio = 16.0f / 9.0f; //fixed 16:9
     const float DesiredAspectRatioInv = 1.0f / DesiredAspectRatio;
     float aspect = (float)Screen.width / (float)Screen.height;
@@ -185,21 +124,10 @@ public class GameRenderManager : MonoBehaviour
 
     if (renderTexture.width != Width()) invalidated = true;
     if (renderTexture.height != Height()) invalidated = true;
-
-    if (invalidated)
-    {
-      RefreshRenderTexture();
-      invalidated = false;
-    }
-
-    Debug.Log("OnPreRender end");
-
   }
 
   public void OnPostRender()
   {
-    Debug.Log("OnPostRender");
-
     float fpsDeltaTime = Time.unscaledDeltaTime;
     float fps = 1.0f / fpsDeltaTime;
 
@@ -230,24 +158,24 @@ public class GameRenderManager : MonoBehaviour
       }
     }
 
-    Debug.Log("OnPostRender end");
-
+    if (invalidated)
+    {
+      RefreshRenderTexture();
+    }
   }
 
   //called when one of the fields changes
   public void OnValidate()
   {
-    //Debug.Log("OnValidate()");
     invalidated = true;
   }
 
   public void OnGUI()
   {
-    if (!showGUI) return;
-    Rect rect = new Rect(0, 0, 400, 200);
-    //GUI.sca
-    //GUILayout.sca
-    GUI.Label(rect, guiText, style);
-
+    if (showGUI)
+    {
+      Rect rect = new Rect(0, 0, 400, 200);
+      GUI.Label(rect, guiText, style);
+    }
   }
 }
