@@ -253,6 +253,7 @@ MonoBehaviour:
   halterCamera: {fileID: 3377055796823145613}
   touchNotifier: {fileID: 3377055795594492535}
   speed: 10
+  footstepSpeed: 0.3
 --- !u!54 &3377055796385223838
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -335,7 +336,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
+  m_TargetTexture: {fileID: 8400000, guid: 566a0c2d65b903441af6173690ff5c4b, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1

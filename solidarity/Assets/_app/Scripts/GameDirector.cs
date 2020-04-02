@@ -54,7 +54,7 @@ public class GameDirector : MonoBehaviour
 
     foreach (var i in items)
     {
-      Debug.Log(i.EnglishName);
+      //Debug.Log(i.EnglishName);
     }
 
     while (true)

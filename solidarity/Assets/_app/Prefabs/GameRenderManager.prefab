@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4828015544453720523}
   - component: {fileID: 2072080158416938175}
   m_Layer: 31
-  m_Name: GameRendermanager
+  m_Name: GameRenderManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,6 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6144cb3ee0ae4cf4191010a668463247, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  renderTexture: {fileID: 8400000, guid: 566a0c2d65b903441af6173690ff5c4b, type: 2}
+  renderTextureMaterial: {fileID: 2100000, guid: e38afe90f5fbb5e4f83bdf479c755e96,
+    type: 2}
   active: 1
   FontSize: 4
   color: {r: 1, g: 0.98333335, b: 0, a: 1}
